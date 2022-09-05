@@ -6,14 +6,17 @@ console.log("hamiid abdi")
 // console.log(fruit)
 
 
-food = prompt("what is your  favoite food?")
+food =  Number(prompt("what is your  favoite food?"))
 
-tip  = prompt ("tip %?")/100
+tip  = Number(prompt ("tip %?")/100)
 tipAmount= tip * food
 
-console.log(tipAmount)
+total = food +tipAmount
 
-alert(tipAmount)
+console.log(tipAmount)
+console.log(total)
+
+// alert(tipAmount)
 
 // user input 
  
