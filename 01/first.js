@@ -2,7 +2,18 @@ console.log("hamiid abdi")
 
 
 //operators
+// fruit = prompt("what is your  favoite fruite?")
+// console.log(fruit)
 
 
-let food = 20
-console.log(food)
+food = prompt("what is your  favoite food?")
+
+tip  = prompt ("tip %?")/100
+tipAmount= tip * food
+
+console.log(tipAmount)
+
+alert(tipAmount)
+
+// user input 
+ 
