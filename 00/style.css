@@ -10,5 +10,7 @@
   background-color: blue;
   height: 100vh;
   background-image: url(/00/images/desktop/image-header.jpg);
-  background-position: center;
+  background-position: center bottom;
+  background-size: cover;
+
 }
