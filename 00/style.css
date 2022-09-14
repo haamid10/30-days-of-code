@@ -78,7 +78,15 @@
   height: 100%;
   object-fit: cover;
 }
+.section1 .left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.section1 .text-container{
+  width: 70%;
+}
 .left , .right{
   flex: 1;
 }
