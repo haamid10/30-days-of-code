@@ -183,7 +183,10 @@
 .examples{
   display: flex;
 }
-.examples img{
+.examples div{
   flex: 0.25;
+  /* width: 100%; */
+}
+.examples img{
   width: 100%;
 }
