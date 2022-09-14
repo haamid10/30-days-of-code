@@ -75,8 +75,9 @@
 }
 .section1 img{
   width:100%;
-  height: 100%;
+  height: 120%;
   object-fit: cover;
+  margin-bottom: 4rem;
 }
 .section1 .left{
   display: flex;
@@ -105,12 +106,20 @@
 }
 .left div img{
   width: 150px;
+  /* height: 100%; */
 }
 
 .left , .right{
   flex: 1;
 }
-.left img, .right img {
+.section1,  .right img {
+  /* margin-bottom: 4rem; */
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+.section2, .left img,  .right img {
+  /* margin-bottom: 4rem; */
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -139,4 +148,10 @@
   margin-top: 30px;
   margin-bottom: 40px;
 
+}
+.clients .client{
+  display: flex;
+  flex-direction: column;
+  flex: 0.3;
+  align-items: center;
 }
