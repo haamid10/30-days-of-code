@@ -180,3 +180,10 @@
     
 
 }
+.examples{
+  display: flex;
+}
+.examples img{
+  flex: 0.25;
+  width: 100%;
+}
