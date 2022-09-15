@@ -182,6 +182,8 @@
 }
 .examples{
   display: flex;
+  /* align-items: center; */
+
 }
 .examples div{
   flex: 0.25;
@@ -189,14 +191,18 @@
 }
 .examples img{
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .footer{
   background-color: #90d4c5;
-  height: 40px;
+  height: 200px;
   display: flex;
   flex-direction: column ;
   align-items: center;
-  
+  padding-bottom: 50px;
+  padding-top: 50px;
+
 }
 .footer .logo{
   color: #2d7465;
@@ -210,5 +216,17 @@
   font-weight: bold;
 }
 .footer-navigation span{
-  padding-top: 30px;
+  padding: 8px;
+  cursor: pointer;
+}
+.footer-navigation span{
+  color: #2d7465;
+}
+
+.footer .social{
+  margin-top: 30px;
+
+}
+.footer .social img{
+
 }
