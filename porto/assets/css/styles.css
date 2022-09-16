@@ -233,7 +233,7 @@ color: var(--first-color);
   color: var(--first-color-alt);
 }
 /* show menu */
-.show_menu{
+.show-menu{
   bottom: 0;
 }
 
