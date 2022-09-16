@@ -233,6 +233,9 @@ color: var(--first-color);
   color: var(--first-color-alt);
 }
 /* show menu */
+.show_menu{
+  bottom: 0;
+}
 
 
 /* Active link */
