@@ -183,3 +183,34 @@ img {
 .show{
   right: 0;
 }
+
+/* =====Home====--- */
+
+.home{
+  height: calc(100vh - 3rem);
+  row-gap: 1rem;
+
+}
+.home___data{
+  align-self: center;
+}
+.home__title{
+  font-size: var(--big-font-size);
+  margin-bottom: var(--mb-4);
+
+}
+.home__title-color{
+  color: var(--first-color);
+}
+.home__social{
+  display: flex;
+  flex-direction: column;
+
+}
+.home__social-icon{
+  width: max-content;
+  margin-bottom: var(--mb-2);
+  font-size: 1.5rem;
+  color: var(--second-color);
+  
+}
