@@ -406,6 +406,8 @@ img {
   }
   .nav__list{
     display: flex;
+    flex-direction: row;
+    justify-items: space-between;
     padding-top: 0;
   }
   .nav__item{
@@ -447,6 +449,8 @@ img {
     align-items: center;
     text-align: initial;
   }
-  .
+  .about__img img{
+    width: 300px;
+  }
 
 }
