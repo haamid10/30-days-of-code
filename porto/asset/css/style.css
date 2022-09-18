@@ -288,5 +288,22 @@ img {
   background-color: var(--first-color);
   height: .25rem;
   border-radius: .5rem;
+  z-index: var(--z-back);
   
+}
+.skills_html{
+  width: 95%;
+
+}
+.skills_css{
+  width: 85%;
+}
+.skills_js{
+ width: 65%;
+}
+.skills__react{
+  width: 55%;
+}
+.skills_tailwindcss{
+  width: 65%;
 }
