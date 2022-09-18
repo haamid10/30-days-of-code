@@ -80,7 +80,7 @@ img {
   text-align: center;
 }
 .section-title::after{
-  position:absolute;
+  position: absolute;
   content: "";
   width: 64px;
   height: 0.18rem;
