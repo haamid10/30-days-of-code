@@ -274,5 +274,5 @@ img {
 .skills__icon{
   font-size: 2rem;
   margin-right: var(--mb-2);
-  color: var(--second-color);
+  color: var(--first-color);
 }
