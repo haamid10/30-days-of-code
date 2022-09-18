@@ -276,12 +276,12 @@ img {
   margin-right: var(--mb-2);
   color: var(--first-color);
 }
-.skils__names{
+.skills__names{
   display: flex;
   align-items: center;
 
 }
-.skills_bar{
+.skills__bar{
   position: absolute;
   left: 0;
   bottom: 0;
@@ -301,7 +301,7 @@ img {
 .skills_js{
  width: 65%;
 }
-.skills__react{
+.skills_react{
   width: 55%;
 }
 .skills_tailwindcss{
