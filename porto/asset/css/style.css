@@ -276,3 +276,17 @@ img {
   margin-right: var(--mb-2);
   color: var(--first-color);
 }
+.skils__names{
+  display: flex;
+  align-items: center;
+
+}
+.skills_bar{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: var(--first-color);
+  height: .25rem;
+  border-radius: .5rem;
+  
+}
