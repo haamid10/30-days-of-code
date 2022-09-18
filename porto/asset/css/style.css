@@ -339,4 +339,15 @@ img {
   padding: 1rem;
   border-radius: .5rem;
   border: 1.5px solid var(--second-color);
+  outline: none;
+  margin-bottom: var(--mb-2);
+}
+.contact__button{
+  display: block;
+  border: none;
+  outline: none;
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+  margin-left: auto;
+
 }
