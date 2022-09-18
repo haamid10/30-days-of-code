@@ -218,15 +218,12 @@ img {
   color: var(--first-color);
 }
 .home__img{
-  /* width: 40%; */
-  /* margin-left: 32rem; */
-  /* height: auto; */
-  position: relative;
-  background-color: var(--first-color);
-  color: #fff;
-  /* padding: 4.75rem 2.5rem; */
-  font-weight: var(--font-semi);
-  border-radius: .5rem;
+ 
+  right: 0;
+  bottom: 0;
+  width: 495px;
+  position: absolute;
+  
 }
 .button:hover{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
