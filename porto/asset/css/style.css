@@ -332,15 +332,19 @@ img {
   transform: scale(1.1);
 }
 /* ====Contact====== */
+.contact{
+  align-items: center;
+}
 .contact__input{
-  width: 100%;
+  width: 80%;
   font-size: var(--normal-font-size);
   font-weight: var(--font-semi);
-  padding: 1rem;
+  padding: .5rem;
   border-radius: .5rem;
   border: 1.5px solid var(--second-color);
   outline: none;
-  margin-bottom: var(--mb-2);
+  /* margin: ; */
+  margin: var(--mb-2);
 }
 .contact__button{
   display: block;
@@ -348,6 +352,8 @@ img {
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
-  margin-left: auto;
+  margin: var(--mb-2);
+
+  /* margin-left: auto; */
 
 }
