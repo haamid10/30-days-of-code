@@ -148,5 +148,12 @@ function div(a,b){
 }
 console.log(div(12,2))
 
+
+// ===Arrow function
+
 const Add1=(a,b)=> a+b
-console.log(Add(2,3))
+console.log(Add1(2,3))
+
+const mult1=(a,b)=> a*b
+console.log(mult1(2,3))
+
