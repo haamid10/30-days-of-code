@@ -124,3 +124,11 @@ math.random()= gives you random nummber
 
 // console.log(sumArrob(100,28))
 
+
+// ========exercise 
+
+
+function Add(a,b){
+  return a+b
+}
+Add(12+ 2)
