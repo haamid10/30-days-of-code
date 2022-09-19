@@ -101,11 +101,15 @@ function Sum(b,c){
 
 function calculateFoodTotal(food , tip){
 
-  tipPercentage = tip/100
-  tipAmount = food * tipPercentage
-  total =  Sum(food ,tipAmount)
+ const tipPercentage = tip/100
+  const tipAmount = food * tipPercentage
+ const  total =  Sum(food ,tipAmount)
 
   return total
 }
 
 console.log(calculateFoodTotal(400, 10))
+
+
+// ES6
+// Arrow functions
