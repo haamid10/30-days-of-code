@@ -133,7 +133,7 @@ function Add(a,b){
 }
 console.log(Add(12,2))
 
-function Add(a,b){
-  return a+b
+function sub(a,b){
+  return a-b
 }
-console.log(Add(12,2))
+console.log(sub(12,2))
