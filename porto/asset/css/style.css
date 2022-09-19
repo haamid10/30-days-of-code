@@ -406,8 +406,8 @@ img {
   }
   .nav__list{
     display: flex;
-    flex-direction: row;
-    justify-items: space-between;
+    /* flex-direction: row; */
+    /* justify-items: space-between; */
     padding-top: 0;
   }
   .nav__item{
@@ -452,5 +452,21 @@ img {
   .about__img img{
     width: 300px;
   }
+  .work__container{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    
+    column-gap: 2rem;
+
+  }
+  .contact__form{
+    width: 360px;
+
+  }
+  .contact__container{
+    justify-items: center;
+  }
+
 
 }
+
