@@ -148,6 +148,11 @@ function div(a,b){
 }
 console.log(div(12,2))
 
+function total(){
+  return [Add(1,2),sub(1,2),mult(1,2),div(1,2)]
+}
+console.log(total())
+
 
 // ===Arrow function
 
