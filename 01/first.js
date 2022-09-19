@@ -89,4 +89,12 @@ function greeting(name){
  greet =`hi ${name} ,Nice to meet you `
  console.log(greet)
 }
-// greesting('johny dep')
+// greesting('johnny dep')
+
+function Sum(b,c){
+  return b + c
+}
+num1=Sum(1, 2)
+num2=Sum(6, 2)
+
+console.log(num1,num2)
