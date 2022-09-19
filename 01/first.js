@@ -157,3 +157,8 @@ console.log(Add1(2,3))
 const mult1=(a,b)=> a*b
 console.log(mult1(2,3))
 
+const sub1=(a,b)=> a-b
+console.log(sub1(2,3))
+
+
+
