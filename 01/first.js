@@ -113,3 +113,12 @@ console.log(calculateFoodTotal(400, 10))
 
 // ES6
 // Arrow functions
+// arrow function with explicit
+
+const sumArrow =(a , b) =>{
+  return a+b
+}
+// arrow function with implicit
+// IMPORTANT :for implicit return. remove curly braces
+const sumArrob =(a , b) => a+b
+
