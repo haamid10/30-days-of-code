@@ -68,10 +68,19 @@ function sayMyName(siuu){
   console.log(siuu)
 
 }
-sayMyName('sakariye')
+// sayMyName('sakariye')
 
 function sayMyName2(){
   console.log('siuu')
 
 }
-sayMyName2()
+// sayMyName2()
+
+
+function greeting(name){
+ // console.log('hi ' + name +',Nice to meet you')
+
+ greet =`hi ${name} ,Nice to meet you `
+ console.log(greet)
+}
+greeting('johny dep')
