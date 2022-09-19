@@ -63,12 +63,18 @@ math.random()= gives you random nummber
 // <!-- tip calculator -->
 
 // functions
+// this function called 'SayMyName2'
+// and it has 0 argument
+// it logs your in to the console
 
 function sayMyName(siuu){
   console.log(siuu)
 
 }
-// sayMyName('sakariye')
+// sayMyName('safari's')
+// this function called 'SayMyName2'
+// and it has 1 argument
+// it logs your in to the console
 
 function sayMyName2(){
   console.log('siuu')
