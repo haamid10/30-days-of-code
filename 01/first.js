@@ -44,14 +44,14 @@ math.random()= gives you random nummber
 /*<!-- baby weather app -->*/
 
 // 😎☔
-let weather = 'rain'
+// let weather = prompt('how is the weather?')
 
-if (weather == 'rain'){
-  console.log("grap your umbrella ☔")}
-  else{
-  console.log("wear your sunglasses 😎")
+// if (weather == 'rainy'){
+//   console.log("grap your umbrella ☔")}
+//   else{
+//   console.log("wear your sunglasses 😎")
 
-  }
+//   }
 
 
 
