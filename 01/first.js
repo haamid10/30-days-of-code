@@ -160,5 +160,6 @@ console.log(mult1(2,3))
 const sub1=(a,b)=> a-b
 console.log(sub1(2,3))
 
-
+const div1=(a,b)=> a/b
+console.log(div1(2,3))
 
