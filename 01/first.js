@@ -133,10 +133,10 @@ function Add(a,b){
 }
 console.log(Add(12,2))
 
-function sub(a,b){
-  return a-b
-}
-console.log(sub(12,2))
+// function sub(a,b){
+//   return a-b
+// }
+// console.log(sub(12,2))
 
 // function mult(a,b){
 //   return a*b
