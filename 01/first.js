@@ -137,3 +137,8 @@ function sub(a,b){
   return a-b
 }
 console.log(sub(12,2))
+
+function mult(a,b){
+  return a*b
+}
+console.log(mult(12,2))
