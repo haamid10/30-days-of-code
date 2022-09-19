@@ -131,4 +131,4 @@ math.random()= gives you random nummber
 function Add(a,b){
   return a+b
 }
-Add(12+ 2)
+console.log(Add(12,2))
