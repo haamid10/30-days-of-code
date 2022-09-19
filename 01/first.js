@@ -39,5 +39,19 @@ math.random()= gives you random nummber
 // console.log(h)
 
 
-Math.floor(Math.random()*3)
+// Math.floor(Math.random()*3)
+
+/*<!-- baby weather app -->*/
+
+// 😎☔
+let weather = 'rain'
+
+if (weather == 'rain'){
+  console.log("grap your umbrella ☔")}
+  else{
+  console.log("wear your sunglasses 😎")
+
+  }
+
+
 
