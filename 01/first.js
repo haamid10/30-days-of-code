@@ -132,3 +132,8 @@ function Add(a,b){
   return a+b
 }
 console.log(Add(12,2))
+
+function Add(a,b){
+  return a+b
+}
+console.log(Add(12,2))
