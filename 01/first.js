@@ -65,7 +65,7 @@ math.random()= gives you random nummber
 // functions
 // this function called 'SayMyName2'
 // and it has 0 argument
-// it logs your in to the console
+// it logs out your name in to the console
 
 function sayMyName(siuu){
   console.log(siuu)
@@ -74,7 +74,7 @@ function sayMyName(siuu){
 // sayMyName('safari's')
 // this function called 'SayMyName2'
 // and it has 1 argument
-// it logs your in to the console
+// it logs out your name in to the console
 
 function sayMyName2(){
   console.log('siuu')
@@ -89,4 +89,4 @@ function greeting(name){
  greet =`hi ${name} ,Nice to meet you `
  console.log(greet)
 }
-greeting('johny dep')
+// greesting('johny dep')
