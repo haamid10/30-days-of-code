@@ -1,4 +1,4 @@
-console.log("hamiid abdi")
+// console.log("hamiid abdi")
 
 
 //operators
@@ -6,7 +6,7 @@ console.log("hamiid abdi")
 // console.log(fruit)
 
 
-// food =  Number(prompt("what is your  favoite food?"))
+// food =  Number(prompt("what is your  favorite food?"))
 
 // tip  = Number(prompt ("tip %?")/100)
 // tipAmount= tip * food
@@ -41,6 +41,10 @@ math.random()= gives you random nummber
 
 // Math.floor(Math.random()*3)
 
+
+
+
+
 /*<!-- baby weather app -->*/
 
 // 😎☔
@@ -55,3 +59,19 @@ math.random()= gives you random nummber
 
 
 
+
+// <!-- tip calculator -->
+
+// functions
+
+function sayMyName(siuu){
+  console.log(siuu)
+
+}
+sayMyName('sakariye')
+
+function sayMyName2(){
+  console.log('siuu')
+
+}
+sayMyName2()
