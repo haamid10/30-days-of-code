@@ -6,17 +6,38 @@ console.log("hamiid abdi")
 // console.log(fruit)
 
 
-food =  Number(prompt("what is your  favoite food?"))
+// food =  Number(prompt("what is your  favoite food?"))
 
-tip  = Number(prompt ("tip %?")/100)
-tipAmount= tip * food
+// tip  = Number(prompt ("tip %?")/100)
+// tipAmount= tip * food
 
-total = food +tipAmount
+// total = food +tipAmount
 
-console.log(tipAmount)
-console.log(total)
+// console.log(tipAmount)
+// console.log(total)
 
 // alert(tipAmount)
 
 // user input 
  
+
+
+/* math
+
+math.floor=rounds the number
+math.ceil
+math.random()= gives you random nummber
+
+
+*/
+
+// var h = 3
+// Math.random() * h
+// console.log(h)
+
+// Math.ceil(h)
+// console.log(h)
+
+
+Math.floor(Math.random()*3)
+
