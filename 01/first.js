@@ -143,10 +143,10 @@ function mult(a,b){
 }
 console.log(mult(12,2))
 
-function div(a,b){
-  return a/b
-}
-console.log(div(12,2))
+// function div(a,b){
+//   return a/b
+// }
+// console.log(div(12,2))
 
 // function total(){
 //   return [Add(1,2),sub(1,2),mult(1,2),div(1,2)]
