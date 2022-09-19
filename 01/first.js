@@ -147,3 +147,6 @@ function div(a,b){
   return a/b
 }
 console.log(div(12,2))
+
+const Add1=(a,b)=> a+b
+console.log(Add(2,3))
