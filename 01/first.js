@@ -122,3 +122,5 @@ const sumArrow =(a , b) =>{
 // IMPORTANT :for implicit return. remove curly braces
 const sumArrob =(a , b) => a+b
 
+console.log(sumArrob(100,28))
+
