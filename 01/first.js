@@ -224,17 +224,17 @@ math.random()= gives you random nummber
 //   console.log(grocs)
 // } 
 
-const numbers = [1,4,6,8,10,12]
-// for (let i=0; i< numbers.length;i++){
-//   console.log(numbers[i])
-// }
-let result= []
-const mult= (numbers)=>{
-let result= []
+// const numbers = [1,4,6,8,10,12]
+// // for (let i=0; i< numbers.length;i++){
+// //   console.log(numbers[i])
+// // }
+// let result= []
+// const mult= (numbers)=>{
+// let result= []
 
-for (const numb of numbers){
-  result.push (numb ** 2)
- } // console.log(result)
- return result
-}
-console.log(mult([1,2,3,4,5]))
+// for (const numb of numbers){
+//   result.push (numb ** 2)
+//  } // console.log(result)
+//  return result
+// }
+// console.log(mult([1,2,3,4,5]))
