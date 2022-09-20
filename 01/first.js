@@ -194,20 +194,20 @@ math.random()= gives you random nummber
 // console.log(person2.phone,person2.name,person2.shirt)
 
 
-const introducer=(name , shirt) =>{
-  const person ={
-    name: name,
-    shirt: shirt ,
-    assets : 292290,
-    liabilities: 292000,
-    networth: function(){
-      return this.assets - this.liabilities
-    }
+// const introducer=(name , shirt) =>{
+//   const person ={
+//     name: name,
+//     shirt: shirt ,
+//     assets : 292290,
+//     liabilities: 292000,
+//     networth: function(){
+//       return this.assets - this.liabilities
+//     }
 
-  }
+//   }
 
-  const intro = `hi,my name is ${person.name} and the color of my shirt is ${person.shirt} and my net-worth is ${person.networth()} `
+//   const intro = `hi,my name is ${person.name} and the color of my shirt is ${person.shirt} and my net-worth is ${person.networth()} `
 
-  return intro
-}
-console.log(introducer('xaamid' ,'maroon'))
+//   return intro
+// }
+// console.log(introducer('xaamid' ,'maroon'))
