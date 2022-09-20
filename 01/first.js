@@ -213,22 +213,26 @@ math.random()= gives you random nummber
 // console.log(introducer('xaamid' ,'maroon'))
 
 
-const groceries =  ['canbe ', 'tufaax','liin','muus','liin','muus','liin','muus','liin','muus','lin','muus']
+// const groceries =  ['canbe ', 'tufaax','liin','muus','liin','muus','liin','muus','liin','muus','lin','muus']
 
 
 // for (let i=0; i < groceries.length; i++){
 //   console.log(groceries[i])
 // }
 
-for (const grocs of groceries){
-  console.log(grocs)
-} 
+// for (const grocs of groceries){
+//   console.log(grocs)
+// } 
 
-const numbers = [1,2,3,4,5,6]
-for (let i=0; i< numbers.length;i++){
-  console.log(numbers[i])
-}
+const numbers = [1,4,6,8,10,12]
+// for (let i=0; i< numbers.length;i++){
+//   console.log(numbers[i])
+// }
+let result= []
 
 for (const numb of numbers){
-  console.log(numb *2)
+  result.push (numb *2)
+  // console.log(result)
+ 
 }
+console.log(result)
