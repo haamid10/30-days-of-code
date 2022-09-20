@@ -1,22 +1,22 @@
-console.log("hamiid abdi")
+// console.log("hamiid abdi")
 
 
-operators
-fruit = prompt("what is your  favoite fruite?")
-console.log(fruit)
+//operators
+// fruit = prompt("what is your  favoite fruite?")
+// console.log(fruit)
 
 
-food =  Number(prompt("what is your  favorite food?"))
+// food =  Number(prompt("what is your  favorite food?"))
 
-tip  = Number(prompt ("tip %?")/100)
-tipAmount= tip * food
+// tip  = Number(prompt ("tip %?")/100)
+// tipAmount= tip * food
 
-total = food +tipAmount
+// total = food +tipAmount
 
-console.log(tipAmount)
-console.log(total)
+// console.log(tipAmount)
+// console.log(total)
 
-alert(tipAmount)
+// alert(tipAmount)
 
 // user input 
 
@@ -37,12 +37,12 @@ math.random()= gives you random nummber
 // 😎☔
 // let weather = prompt('how is the weather?')
 
-if (weather == 'rainy'){
-  console.log("grap your umbrella ☔")}
-  else{
-  console.log("wear your sunglasses 😎")
+// if (weather == 'rainy'){
+//   console.log("grap your umbrella ☔")}
+//   else{
+//   console.log("wear your sunglasses 😎")
 
-  }
+//   }
 
 
 
@@ -252,14 +252,29 @@ if (weather == 'rainy'){
 // HowManyNumbers()
 
 
-const sumArray = (numbers) => {
- let result= 0;
-  for( const numer of numbers){
-    console.log(numer)
+// const sumArray = (numbers) => {
+//  let result= 0;
+//   for( const numer of numbers){
+//     console.log(numer)
 
-    result = result + numer
+//     result = result + numer
+//   }
+//   return {result }
+// }
+// const num = [1,2,3,4,5]
+// console.log(sumArray(num))
+
+
+
+const Sum = (numbers) =>{
+  let result = 0;
+
+  for(const number of numbers){
+    
+    console.log(number )
+    result = result + number
   }
-  return {result }
+  return {result}
 }
-const num = [1,2,3,4,5]
-console.log(sumArray(num))
+ let num = [1,2,3,4]
+  console.log(Sum(num))
