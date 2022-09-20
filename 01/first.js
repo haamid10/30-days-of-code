@@ -211,3 +211,11 @@ math.random()= gives you random nummber
 //   return intro
 // }
 // console.log(introducer('xaamid' ,'maroon'))
+
+
+const groceries =  ['canbe ', 'tufaax','liin','muus','liin','muus','liin','muus','liin','muus','lin','muus']
+
+
+for (let i=0; i < groceries.length; i++){
+  console.log(groceries[i])
+}
