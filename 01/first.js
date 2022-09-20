@@ -230,5 +230,5 @@ for (let i=0; i< numbers.length;i++){
 }
 
 for (const numb of numbers){
-  console.log(numb)
+  console.log(numb *2)
 }
