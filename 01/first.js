@@ -238,3 +238,13 @@ math.random()= gives you random nummber
 //  return result
 // }
 // console.log(mult([1,2,3,4,5]))
+
+const howManyLetters=()=>{
+  const phrase = 'hey ,can you go to groccery store with me?'
+
+  for(letter in phrase){
+    console.log(letter)
+  }
+
+}
+console.log(howManyLetters())
