@@ -19,8 +19,6 @@
 // alert(tipAmount)
 
 // user input 
- 
-
 
 /* math
 
@@ -28,23 +26,12 @@ math.floor=rounds the number
 math.ceil
 math.random()= gives you random nummber
 
-
-*/
-
 // var h = 3
 // Math.random() * h
 // console.log(h)
-
 // Math.ceil(h)
 // console.log(h)
-
-
 // Math.floor(Math.random()*3)
-
-
-
-
-
 /*<!-- baby weather app -->*/
 
 // 😎☔
@@ -188,34 +175,34 @@ math.random()= gives you random nummber
 
 // console.log(groceries.length)
 
+// const person = {
+//   name: 'hamiid', 
+//   shirt: 'white'
 
+// }
 
-const person = {
-  name: 'hamiid', 
-  shirt: 'white'
+// person ['phone']= 365345534
 
-}
+// console.log(person)
 
-person ['phone']= 365345534
-
-console.log(person)
-
-const person2= {
-  name: 'qaazi',
-  shirt: 'black',
-  phone: '063-3917014'
-}
-console.log(person,person2)
-console.log(person2.phone,person2.name,person2.shirt)
+// const person2= {
+//   name: 'qaazi',
+//   shirt: 'black',
+//   phone: '063-3917014'
+// }
+// console.log(person,person2)
+// console.log(person2.phone,person2.name,person2.shirt)
 
 
 const introducer=(name , shirt) =>{
   const person ={
     name: name,
-    shirt: shirt
+    shirt: shirt ,
+    assets : 292290,
+    liabilities: 292000
   }
 
-  const intro = `hi,my name is ${person.name} and the color of my shirt is ${person.shirt}`
+  const intro = `hi,my name is ${person.name} and the color of my shirt is ${person.shirt} and my net-worth is ${person.assets -person.liabilities} `
 
   return intro
 }
