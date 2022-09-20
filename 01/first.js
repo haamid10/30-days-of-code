@@ -173,14 +173,14 @@ math.random()= gives you random nummber
 
 //Arrays
 
-const groceries =  ['canbe ', 'tufaax','liin','muus']
+// const groceries =  ['canbe ', 'tufaax','liin','muus']
 // console.log(groceries[1])
 
 // Array.methods(slice , push ,indexof, length)
 
-groceries.push('xabxab')
-groceries.push('cinab')
-console.log(groceries)
+// groceries.push('xabxab')
+// groceries.push('cinab')
+// console.log(groceries)
 
 // console.log(groceries.slice(0, 2))
 // console.log(groceries.slice(3, 6))
@@ -190,3 +190,10 @@ console.log(groceries)
 
 
 
+const person = {
+  name: 'hamiid',
+  shirt: 'white'
+
+}
+
+console.log(person['shirt'])
