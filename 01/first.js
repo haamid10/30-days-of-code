@@ -191,7 +191,7 @@ math.random()= gives you random nummber
 
 
 const person = {
-  name: 'hamiid',
+  name: 'hamiid', 
   shirt: 'white'
 
 }
@@ -207,3 +207,16 @@ const person2= {
 }
 console.log(person,person2)
 console.log(person2.phone,person2.name,person2.shirt)
+
+
+const introducer=(name , shirt) =>{
+  const person ={
+    name: name,
+    shirt: shirt
+  }
+
+  const intro = `hi,my name is ${person.name} and the color of my shirt is ${person.shirt}`
+
+  return intro
+}
+console.log(introducer('xaamid' ,'maroon'))
