@@ -242,18 +242,23 @@ math.random()= gives you random nummber
 const howManyLetters=()=>{
   const phrase = 'hey ,can you go to groccery store with me?'
 
-  for(letter in phrase){
-    console.log(letter)
+
+  let result = 0;
+  for(const index in phrase){
+    console.log(Number(index)+1)
+    result= index
   }
-
+ return {result :result}
 }
-// console.log(howManyLetters())
+console.log(howManyLetters())
+ 
 
-const HowManyNumbers =()=>{
-  const nus = '122364734637466'
 
-  for(number in nus){
-    console.log(number)
-  }
-}
-HowManyNumbers()
+// const HowManyNumbers =()=>{
+//   const nus = '122364734637466'
+
+//   for(number of nus){
+//     console.log(number)
+//   }
+// }
+// HowManyNumbers()
