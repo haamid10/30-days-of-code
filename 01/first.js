@@ -238,9 +238,9 @@ math.random()= gives you random nummber
 //  return result
 // }
 // console.log(mult([1,2,3,4,5]))
-
-const howManyLetters=()=>{
-  const phrase = 'hey ,can you go to groccery store with me?'
+  
+const howManyLetters=(phrase)=>{
+ 
 
 
   let result = 0;
@@ -250,7 +250,8 @@ const howManyLetters=()=>{
   }
  return {result :result}
 }
-console.log(howManyLetters())
+const phrase = prompt('write your phrase')
+console.log(howManyLetters(phrase))
  
 
 
