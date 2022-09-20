@@ -233,7 +233,7 @@ const mult= (numbers)=>{
 let result= []
 
 for (const numb of numbers){
-  result.push (numb *2)
+  result.push (numb ** 2)
  } // console.log(result)
  return result
 }
