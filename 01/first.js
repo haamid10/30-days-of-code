@@ -182,8 +182,11 @@ groceries.push('xabxab')
 groceries.push('cinab')
 console.log(groceries)
 
-console.log(groceries.slice(0, 2))
-console.log(groceries.slice(3, 6))
-console.log(groceries.slice(1, 4))
+// console.log(groceries.slice(0, 2))
+// console.log(groceries.slice(3, 6))
+// console.log(groceries.slice(1, 4))
+
+// console.log(groceries.length)
+
 
 
