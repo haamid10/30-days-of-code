@@ -199,10 +199,14 @@ const introducer=(name , shirt) =>{
     name: name,
     shirt: shirt ,
     assets : 292290,
-    liabilities: 292000
+    liabilities: 292000,
+    networth: function(){
+      return this.assets - this.liabilities
+    }
+
   }
 
-  const intro = `hi,my name is ${person.name} and the color of my shirt is ${person.shirt} and my net-worth is ${person.assets -person.liabilities} `
+  const intro = `hi,my name is ${person.name} and the color of my shirt is ${person.shirt} and my net-worth is ${person.networth()} `
 
   return intro
 }
