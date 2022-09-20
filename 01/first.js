@@ -238,23 +238,7 @@ math.random()= gives you random nummber
 //  return result
 // }
 // console.log(mult([1,2,3,4,5]))
-  
-// const howManyLetters=(phrase)=>{
- 
-//  return {result:phrase.length}
-
-//   let result = 0;
-//   for(const index in phrase){
-//     console.log(Number(index)+1)
-//     result= index}
-//   const phrase = 'hey ,can you go to groccery store with me?'
-//  return {result :result}
-// }
-// const phrase = prompt('write your phrase')
-
-
-// const phrase = prompt('write your phrase')
-// console.log(howManyLetters(phrase))
+   
  
 
 
@@ -266,3 +250,16 @@ math.random()= gives you random nummber
 //   }
 // }
 // HowManyNumbers()
+
+
+const sumArray = (numbers) => {
+ let result= 0;
+  for( const numer of numbers){
+    console.log(numer)
+
+    result = result + numer
+  }
+  return {result }
+}
+const num = [1,2,3,4,5]
+console.log(sumArray(num))
