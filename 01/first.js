@@ -229,10 +229,12 @@ const numbers = [1,4,6,8,10,12]
 //   console.log(numbers[i])
 // }
 let result= []
+const mult= (numbers)=>{
+let result= []
 
 for (const numb of numbers){
   result.push (numb *2)
-  // console.log(result)
- 
+ } // console.log(result)
+ return result
 }
-console.log(result)
+console.log(mult([1,2,3,4,5]))
