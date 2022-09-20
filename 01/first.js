@@ -216,6 +216,10 @@ math.random()= gives you random nummber
 const groceries =  ['canbe ', 'tufaax','liin','muus','liin','muus','liin','muus','liin','muus','lin','muus']
 
 
-for (let i=0; i < groceries.length; i++){
-  console.log(groceries[i])
+// for (let i=0; i < groceries.length; i++){
+//   console.log(groceries[i])
+// }
+
+for (const grocs of groceries){
+  console.log(grocs)
 }
