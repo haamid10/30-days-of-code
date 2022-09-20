@@ -247,4 +247,13 @@ const howManyLetters=()=>{
   }
 
 }
-console.log(howManyLetters())
+// console.log(howManyLetters())
+
+const HowManyNumbers =()=>{
+  const nus = '122364734637466'
+
+  for(number in nus){
+    console.log(number)
+  }
+}
+HowManyNumbers()
