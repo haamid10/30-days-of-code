@@ -169,3 +169,10 @@ math.random()= gives you random nummber
 // const div1=(a,b)=> a/b
 // console.log(div1(2,3))
 
+
+
+//Arrays
+
+const groceries =  ['canbe ', 'tufaax','liin','muus']
+console.log(groceries[1])
+
