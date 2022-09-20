@@ -222,4 +222,13 @@ const groceries =  ['canbe ', 'tufaax','liin','muus','liin','muus','liin','muus'
 
 for (const grocs of groceries){
   console.log(grocs)
+} 
+
+const numbers = [1,2,3,4,5,6]
+for (let i=0; i< numbers.length;i++){
+  console.log(numbers[i])
+}
+
+for (const numb of numbers){
+  console.log(numb)
 }
