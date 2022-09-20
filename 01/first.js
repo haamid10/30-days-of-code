@@ -196,4 +196,14 @@ const person = {
 
 }
 
-console.log(person['shirt'])
+person ['phone']= 365345534
+
+console.log(person)
+
+const person2= {
+  name: 'qaazi',
+  shirt: 'black',
+  phone: '063-3917014'
+}
+console.log(person,person2)
+console.log(person2.phone,person2.name,person2.shirt)
