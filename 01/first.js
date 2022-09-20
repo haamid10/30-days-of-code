@@ -266,15 +266,15 @@ math.random()= gives you random nummber
 
 
 
-const Sum = (numbers) =>{
-  let result = 0;
+// const Sum = (numbers) =>{
+//   let result = 0;
 
-  for(const number of numbers){
+//   for(const number of numbers){
     
-    console.log(number )
-    result = result + number
-  }
-  return {result}
-}
- let num = [1,2,3,4]
-  console.log(Sum(num))
+//     console.log(number )
+//     result = result + number
+//   }
+//   return {result}
+// }
+//  let num = [1,2,3,4]
+//   console.log(Sum(num))
