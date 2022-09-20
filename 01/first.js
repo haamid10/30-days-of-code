@@ -174,5 +174,13 @@ math.random()= gives you random nummber
 //Arrays
 
 const groceries =  ['canbe ', 'tufaax','liin','muus']
-console.log(groceries[1])
+// console.log(groceries[1])
+
+// Array.methods
+
+groceries.push('xabxab')
+console.log(groceries)
+
+console.log(groceries.slice(0, 2))
+
 
