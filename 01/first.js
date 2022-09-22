@@ -252,17 +252,17 @@ math.random()= gives you random nummber
 // HowManyNumbers()
 
 
-// const sumArray = (numbers) => {
-//  let result= 0;
-//   for( const numer of numbers){
-//     console.log(numer)
+const sumArray = (numbers) => {
+ let result = 0;
+  for( const numer of numbers){
+    console.log(numer)
 
-//     result = result + numer
-//   }
-//   return {result }
-// }
-// const num = [1,2,3,4,5]
-// console.log(sumArray(num))
+    result += numer
+  }
+  return {result }
+}
+const num = [1,2,3,4,5]
+console.log(sumArray(num))
 
 
 
@@ -288,7 +288,7 @@ math.random()= gives you random nummber
 //     result =number
 //   }
 //   return {result}
-// }
+// }j
 // console.log(max([1,2,2,23,5,9])) 
 
 
@@ -297,7 +297,7 @@ const letterFrequency = (phrase) =>{
    let frequency = {}
    for (const letter of phrase){
      if (letter in frequency){
-       frequency[letter] = frequency[letter] +1
+       frequency[letter] += 1
      } else {
 
       frequency[letter] = 1
