@@ -342,7 +342,13 @@ const wordFrequency= (phrase)=>{
 let result = [1,2,3,4,].map(number => number*2)
   console.log(result)
 
-  const doubleNumber = (numbers) => {
-    return numbers.map(number => number * 2)
+  const doubleNumber = (numbers, greater) => {
+    return numbers.filter(greater => {
+     greater =  greater> 2
+      return greater
+    })
+
+    
   }
    console.log(doubleNumber([1,2,3,4]))
+  //  console.log(doubleNumber(numbers))
