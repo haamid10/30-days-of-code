@@ -316,7 +316,7 @@ const wordFrequency= (phrase)=>{
   return letterFrequency(words)
 }
 
-
+  
 console.log(wordFrequency('my name is hamiid abdi . my lol'))
 
 
