@@ -339,16 +339,33 @@ const wordFrequency= (phrase)=>{
 
 // }
 
-let result = [1,2,3,4,].map(number => number*2)
-  console.log(result)
+// let result = [1,2,3,4,].map(number => number*2)
+//   console.log(result)
+
+
+// there is two ways in filter 
 
   const doubleNumber = (numbers, greater) => {
     return numbers.filter(greater => {
-     greater =  greater> 2
+     greater =  greater> 3
       return greater
     })
 
     
   }
-   console.log(doubleNumber([1,2,3,4]))
+   console.log(doubleNumber([1,2,3,4,5,6]))
   //  console.log(doubleNumber(numbers))
+
+  const filterArray= (numbers,greater) =>{
+    let result = []
+
+    for(const number of numbers){
+      if(number > greater){
+        result.push (number)
+      }
+      
+    }
+    return result
+  }
+
+  console.log(filterArray([1,2,3,4,5 ],2))
