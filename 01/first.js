@@ -353,7 +353,7 @@ const wordFrequency= (phrase)=>{
 
     
   }
-   console.log(doubleNumber([1,2,3,4,5,6]))
+  //  console.log(doubleNumber([1,2,3,4,5,6]))
   //  console.log(doubleNumber(numbers))
 
   const filterArray= (numbers,greater) =>{
@@ -368,7 +368,7 @@ const wordFrequency= (phrase)=>{
     return result
   }
 
-  console.log(filterArray([1,2,3,4,5 ],2))  
+  // console.log(filterArray([1,2,3,4,5 ],2))  
 
 
   const actors =[
@@ -376,5 +376,5 @@ const wordFrequency= (phrase)=>{
     {name: 'amber' ,networth: 240000},
     {name: 'leonardo' ,networth: 253300},
   ]
-  console.log(actors.filter(actor=> actor.networth >200000))
-  console.log(actors.map(actor=> actor.networth ))
+  // console.log(actors.filter(actor=> actor.networth >200000))
+  // console.log(actors.map(actor=> actor.networth ))
