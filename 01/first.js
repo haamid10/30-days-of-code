@@ -261,8 +261,8 @@ const sumArray = (numbers) => {
   }
   return {result }
 }
-const num = [1,2,3,4,5]
-console.log(sumArray(num))
+// const num = [1,2,3,4,5]
+// console.log(sumArray(num))
 
 
 
@@ -339,4 +339,5 @@ const wordFrequency= (phrase)=>{
 
 // }
 
-[1,2,3,4,].map(number =>console.log(number))
+let result = [1,2,3,4,].map(number => number*2)
+  console.log(result)
