@@ -316,8 +316,8 @@ const wordFrequency= (phrase)=>{
   return letterFrequency(words)
 }
 
-  
-console.log(wordFrequency('my name is hamiid abdi . my lol'))
+  const userInput = prompt('write your search')
+console.log(wordFrequency( userInput))
 
 
 
@@ -325,7 +325,7 @@ console.log(wordFrequency('my name is hamiid abdi . my lol'))
 
 
 
-
+ 
 
 
 
