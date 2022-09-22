@@ -316,8 +316,8 @@ const wordFrequency= (phrase)=>{
   return letterFrequency(words)
 }
 
-  const userInput = prompt('write your search')
-console.log(wordFrequency( userInput))
+//   const userInput = prompt('write your search')
+// console.log(wordFrequency( userInput))
 
 
 
@@ -338,3 +338,5 @@ console.log(wordFrequency( userInput))
 // }
 
 // }
+
+[1,2,3,4,].map(number =>console.log(number))
