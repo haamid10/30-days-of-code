@@ -278,3 +278,15 @@ math.random()= gives you random nummber
 // }
 //  let num = [1,2,3,4]
 //   console.log(Sum(num))
+
+
+const max =(numbers) =>{
+  let result = numbers[0]
+
+  for (const number of numbers){
+    if (number > result)
+    result =number
+  }
+  return {result}
+}
+console.log(max([1,2,2,23,5,9]))
