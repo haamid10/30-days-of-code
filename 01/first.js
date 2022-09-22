@@ -369,3 +369,11 @@ const wordFrequency= (phrase)=>{
   }
 
   console.log(filterArray([1,2,3,4,5 ],2))  
+
+
+  const actors =[
+    {name: 'johny' ,networth: 200000},
+    {name: 'amber' ,networth: 240000},
+    {name: 'leonardo' ,networth: 253300},
+  ]
+  console.log(actors.filter(actor=> actor.networth >200000))
