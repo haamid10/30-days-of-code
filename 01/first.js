@@ -343,7 +343,7 @@ const wordFrequency= (phrase)=>{
 //   console.log(result)
 
 
-// there is two ways in filter 
+// there is two ways in filter b 
 
   const doubleNumber = (numbers, greater) => {
     return numbers.filter(greater => {
@@ -368,4 +368,4 @@ const wordFrequency= (phrase)=>{
     return result
   }
 
-  console.log(filterArray([1,2,3,4,5 ],2))
+  console.log(filterArray([1,2,3,4,5 ],2))  
