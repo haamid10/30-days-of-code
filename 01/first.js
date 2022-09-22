@@ -200,7 +200,7 @@ math.random()= gives you random nummber
 //     shirt: shirt ,
 //     assets : 292290,
 //     liabilities: 292000,
-//     networth: function(){
+//     networth: function(){ 
 //       return this.assets - this.liabilities
 //     }
 
@@ -280,13 +280,13 @@ math.random()= gives you random nummber
 //   console.log(Sum(num))
 
 
-const max =(numbers) =>{
-  let result = numbers[0]
+// const max =(numbers) =>{
+//   let result = numbers[0]
 
-  for (const number of numbers){
-    if (number > result)
-    result =number
-  }
-  return {result}
-}
-console.log(max([1,2,2,23,5,9]))
+//   for (const number of numbers){
+//     if (number > result)
+//     result =number
+//   }
+//   return {result}
+// }
+// console.log(max([1,2,2,23,5,9]))
