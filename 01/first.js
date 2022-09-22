@@ -289,4 +289,21 @@ math.random()= gives you random nummber
 //   }
 //   return {result}
 // }
-// console.log(max([1,2,2,23,5,9]))
+// console.log(max([1,2,2,23,5,9])) 
+
+
+const letterFrequency = (phrase) =>{
+   console.log(phrase)
+   let frequency = {}
+   for (const letter of phrase){
+     if (letter in frequency){
+       frequency[letter] = frequency[letter] +1
+     } else {
+
+      frequency[letter] = 1
+     }
+   }
+   return frequency
+}
+
+console.log(letterFrequency('were are you today i was searching you'))
