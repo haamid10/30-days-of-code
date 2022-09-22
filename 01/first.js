@@ -306,23 +306,16 @@ const letterFrequency = (phrase) =>{
    return frequency
 }
 
-console.log(letterFrequency('were are you today i was searching you'))
+// console.log(letterFrequency('were are you today i was searching you'))
 
 
 const wordFrequency= (phrase)=>{
 
-  let frequency = {}
-  words=phrase.split(' ')
-for (const word of words){
-  console.log(word)
-  if(word in frequency){
-    frequency[word] +=1
-  } else {
-    frequency[word] = 1
-  }
-  }   
-  return frequency
+  const words=phrase.split(' ')
+
+  return letterFrequency(words)
 }
+
 
 console.log(wordFrequency('my name is hamiid abdi . my lol'))
 
