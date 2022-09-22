@@ -377,3 +377,4 @@ const wordFrequency= (phrase)=>{
     {name: 'leonardo' ,networth: 253300},
   ]
   console.log(actors.filter(actor=> actor.networth >200000))
+  console.log(actors.map(actor=> actor.networth ))
