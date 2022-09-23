@@ -378,9 +378,4 @@ const wordFrequency= (phrase)=>{
   ]
   let result = actors.filter(actor=> actor.networth >200000)
 
-  // first.innerHTML = `<h1>leonardo </h1>`
-  // console.log(actors.map(actor=> actor.networth ))
-  // first.innerHTML = '<h1> Leonardo </h1>'
-// Playground.innerHTML ='<h1> Leonardo </h1>'
-
-// .innerHTML
+    playground.innerHTML = `<h1> xaamid </h1>`
