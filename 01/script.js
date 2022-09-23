@@ -378,4 +378,4 @@ const wordFrequency= (phrase)=>{
   ]
   let result = actors.filter(actor=> actor.networth >200000)
 
-    playground.innerHTML = `<h1> xaamid </h1>`
+    playground.innerHTML = `<h1> ${result[0].name} </h1>`
