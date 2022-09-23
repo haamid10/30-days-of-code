@@ -428,10 +428,22 @@ const wordFrequency= (phrase)=>{
       green.onclick = () => {console.log('green')}  
       const squere = 
       document.querySelectorAll('.colorsquere')
-      console.log(squere[0].value)
-      console.log(squere[1].value)
-      console.log(squere[2].value)
+      // console.log(squere[0].value)
+      // console.log(squere[1].value)
+      // console.log(squere[2].value)
       
+      const timesClicked = {
+        'yellow': 0,
+        'green': 0,
+        'red': 0
+      }
+ 
+     squere.forEach(squeres =>{
+       squeres.onclick =() =>{
+         timesClicked[squeres.value] += 1
 
-     squere.forEach(squeres =>console.log(squeres.value)
-      )
+         squeres.innerText = timesClicked[squeres.value]
+
+       }
+        //  console.log(squeres.value)
+     })
