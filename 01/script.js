@@ -433,8 +433,5 @@ const wordFrequency= (phrase)=>{
       console.log(squere[2].value)
       
 
-      //  const colorPicker= (color) =>{
-      //    for(const colors of color){
-           
-      //    }
-      //  }
+     squere.forEach(squeres =>console.log(squeres.value)
+      )
