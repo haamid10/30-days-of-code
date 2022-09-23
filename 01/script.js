@@ -379,7 +379,20 @@ const wordFrequency= (phrase)=>{
     {name: 'leonardo' ,networth: 253300}
   ]
   let result = actors.filter(actor=> actor.networth >100)
-  console.log(result)
+  // console.log(result)
   let map= actors.map(actor=> actor.name).join(',')
 
-    playground.innerHTML = `<h1> ${map} </h1>`
+    // playground.innerHTML = `<h1> ${map} </h1>`
+
+
+    const max= (array) =>{
+      let total =[]
+      for (const number of array){
+        if(number <= total){
+          total = number
+        }
+      }
+   return {total}
+    }
+
+    // console.log(max([1,2,3,4,5,6,6,6,8,9]))
