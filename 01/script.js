@@ -417,3 +417,7 @@ const wordFrequency= (phrase)=>{
       title.innerHTML =`<p> ${message}</p>`
 
       title.style.color ='blue'
+
+      let red = document.getElementById('red')
+      let yellow = document.getElementById('yellow')
+      let green = document.getElementById('green')
