@@ -415,3 +415,5 @@ const wordFrequency= (phrase)=>{
       let message = 'goodbye loverr';
       // titleDiv.innerText = message;
       title.innerHTML =`<p> ${message}</p>`
+
+      title.style.color ='blue'
