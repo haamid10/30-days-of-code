@@ -364,7 +364,7 @@ const wordFrequency= (phrase)=>{
         result.push (number)
       }
       
-    }
+    } 
     return result
   }
 
@@ -378,9 +378,11 @@ const wordFrequency= (phrase)=>{
     {name: 'matt damon' ,networth: 17000000},
     {name: 'leonardo' ,networth: 253300}
   ]
-  let result = actors.filter(actor=> actor.networth >100)
-  // console.log(result)
-  let map= actors.map(actor=> actor.name).join(',')
+  // let result = actors.filter(actor=> actor.networth >100)
+  
+  console.log( actors.reduce((a,b)=> a + b.networth,0))
+
+  // let map= actors.map(actor=> actor.name).join(',')
 
     // playground.innerHTML = `<h1> ${map} </h1>`
 
@@ -402,4 +404,4 @@ const wordFrequency= (phrase)=>{
     return  prev * curr
      } )
 
-       console.log(qiyaas)
+      //  console.log(qiyaas)
