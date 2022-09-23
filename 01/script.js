@@ -421,3 +421,7 @@ const wordFrequency= (phrase)=>{
       let red = document.getElementById('red')
       let yellow = document.getElementById('yellow')
       let green = document.getElementById('green')
+
+      red.onclick = () => {console.log('red')}
+      yellow.onclick = () => {console.log('yellow')}
+      green.onclick = () => {console.log('green')}
