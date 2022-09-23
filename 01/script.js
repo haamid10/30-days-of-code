@@ -423,5 +423,6 @@ const wordFrequency= (phrase)=>{
       let green = document.getElementById('green')
 
       red.onclick = () => {console.log('red')}
+      // red.innerText = ('djhdh') 
       yellow.onclick = () => {console.log('yellow')}
-      green.onclick = () => {console.log('green')}
+      green.onclick = () => {console.log('green')} 
