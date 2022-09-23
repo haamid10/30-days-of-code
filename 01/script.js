@@ -397,9 +397,9 @@ const wordFrequency= (phrase)=>{
 
     // console.log(max([1,2,3,4,5,6,6,6,8,9]))
 
-    const numss = [1,2,3,]
+    const numss = [1,2,3,4]
     const qiyaas = numss.reduce((prev ,curr)=> {
-    return  prev + curr
+    return  prev * curr
      } )
 
        console.log(qiyaas)
