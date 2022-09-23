@@ -408,4 +408,10 @@ const wordFrequency= (phrase)=>{
 
       // DOM manualtion
 
-      let title = document.getElementById('title').innerText= 'magacaygu waa xxaamid'
+      // let title = document.getElementById('title').innerText= 'magacaygu waa xaamid'
+
+      // console.log(title)
+
+      let message = 'goodbye loverr';
+      // titleDiv.innerText = message;
+      title.innerHTML =`<p> ${message}</p>`
