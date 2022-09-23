@@ -426,5 +426,5 @@ const wordFrequency= (phrase)=>{
       // red.innerText = ('djhdh') 
       yellow.onclick = () => {console.log('yellow')}
       green.onclick = () => {console.log('green')}  
-      const squeres = document.querySelectorAll('colorsquere')
+      const squeres = document.querySelectorAll('.colorsquere')
       console.log(squeres)
