@@ -380,7 +380,7 @@ const wordFrequency= (phrase)=>{
   ]
   // let result = actors.filter(actor=> actor.networth >100)
   
-  // console.log( actors.reduce((a,b)=> a + b.networth,0))
+  // console.log( actors.reduce((a,b)=> a + b.networth,0))j
 
   // let map= actors.map(actor=> actor.name).join(',')
 
