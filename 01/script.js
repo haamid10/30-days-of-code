@@ -377,5 +377,6 @@ const wordFrequency= (phrase)=>{
     {name: 'leonardo' ,networth: 253300},
   ]
   let result = actors.filter(actor=> actor.networth >200000)
+  let map= actors.map(actor=> actor.name).join(',')
 
-    playground.innerHTML = `<h1> ${result[0].name} </h1>`
+    playground.innerHTML = `<h1> ${map} </h1>`
