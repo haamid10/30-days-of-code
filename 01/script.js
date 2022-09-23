@@ -426,5 +426,15 @@ const wordFrequency= (phrase)=>{
       // red.innerText = ('djhdh') 
       yellow.onclick = () => {console.log('yellow')}
       green.onclick = () => {console.log('green')}  
-      const squeres = document.querySelectorAll('.colorsquere')
-      console.log(squeres)
+      const squere = 
+      document.querySelectorAll('.colorsquere')
+      console.log(squere[0].value)
+      console.log(squere[1].value)
+      console.log(squere[2].value)
+      
+
+      //  const colorPicker= (color) =>{
+      //    for(const colors of color){
+           
+      //    }
+      //  }
