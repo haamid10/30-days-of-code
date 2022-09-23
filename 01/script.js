@@ -266,29 +266,29 @@ const sumArray = (numbers) => {
 
 
 
-// const Sum = (numbers) =>{
-//   let result = 0;
+const Sum = (numbers) =>{
+  let resulrt = 0;
 
-//   for(const number of numbers){
+  for(const number of numbers){
     
-//     console.log(number )
-//     result = result + number
-//   }
-//   return {result}
-// }
-//  let num = [1,2,3,4]
+    console.log(number )
+    result = result + number
+  }
+  return {resulrt}
+}
+ let num = [1,2,3,4]
 //   console.log(Sum(num))
 
 
-// const max =(numbers) =>{
-//   let result = numbers[0]
+const max =(numbers) =>{
+  let result = numbers[0]
 
-//   for (const number of numbers){
-//     if (number > result)
-//     result =number
-//   }
-//   return {result}
-// }j
+  for (const number of numbers){
+    if (number > result)
+    result =number
+  }
+  return {result}
+}
 // console.log(max([1,2,2,23,5,9])) 
 
 
@@ -337,9 +337,9 @@ const wordFrequency= (phrase)=>{
 //   frequency[word] = 1
 // }
 
-// }
+ 
 
-// let result = [1,2,3,4,].map(number => number*2)
+// let resultt = [1,2,3,4,].map(number => number*2)
 //   console.log(result)
 
 
@@ -385,7 +385,7 @@ const wordFrequency= (phrase)=>{
     // playground.innerHTML = `<h1> ${map} </h1>`
 
 
-    const max= (array) =>{
+    const maxx= (array) =>{
       let total =[]
       for (const number of array){
         if(number <= total){
