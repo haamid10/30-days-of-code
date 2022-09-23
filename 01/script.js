@@ -405,3 +405,7 @@ const wordFrequency= (phrase)=>{
      } )
 
       //  console.log(qiyaas)
+
+      // DOM manualtion
+
+      let title = document.getElementById('title').innerText= 'magacaygu waa xxaamid'
