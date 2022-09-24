@@ -448,6 +448,10 @@ const wordFrequency= (phrase)=>{
         //  console.log(squeres.value)
      })
 
+
      const clearScores = () =>{
-       squere.forEach = squere.value = 'clear'
+       squere.forEach = squere.value = ''
      }
+
+     const clearBtn = document.getElementById('clear')
+clearBtn.onclick = () => clearScores()
