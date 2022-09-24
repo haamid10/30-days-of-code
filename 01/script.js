@@ -450,10 +450,11 @@ const wordFrequency= (phrase)=>{
 
 
      const clearScores = () =>{
-       timesClicked.red = 0
-       timesClicked.yellow =0
-       timesClicked.green= 0
+      //  timesClicked.red = 0
+      //  timesClicked.yellow =0
+      //  timesClicked.green= 0
        squere.forEach(squere =>{
+         timesClicked[squere.value]= 0
   squere.innerText = 0
        })
      }
