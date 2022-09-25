@@ -438,36 +438,41 @@ const wordFrequency= (phrase)=>{
         'red': 0 
       }
  
+
+
+
      squere.forEach(squeres =>{
-       
        squeres.onclick =() =>{
          timesClicked[squeres.value] += 1
-
          squeres.innerText = timesClicked[squeres.value]
-
        }
-        //  console.log(squeres.value)
      })
-
-
-     const clearScores = () =>{
-      //  timesClicked.red = 0
-      //  timesClicked.yellow =0
-      //  timesClicked.green= 0
+    const clearScores = () =>{
+       timesClicked.red = 0
+       timesClicked.yellow =0
+       timesClicked.green= 0
        squere.forEach(squere =>{
-         timesClicked[squere.value]= 0
+        //  timesClicked[squere.value]= 0
   squere.innerText = 0
        })
-     }
-
-     const clearN = document.getElementById('clear')
-     clearN.onclick= () => clearScores()
+     }    
+      const clearN = document.getElementById('clear')
+    //  clearN.onclick = () => clearScores()
             //  clearBtn.onclick=()=> clearScores()
 
 
 
-// let redDiv = document.getElementById('red')
-// let yellowDiv = document.getElementById('yellow')
-// let greenDiv = document.getElementById('green')
 
-// redDiv.onclick = () => {console.log('red')}
+
+
+
+
+
+
+let redDiv = document.getElementById('red')
+let yellowDiv = document.getElementById('yellow')
+let greenDiv = document.getElementById('green')
+// redDiv.innerText = ('xaamid')
+redDiv.onclick = () => {console.log('red')}
+yellowDiv.onclick = () => {console.log('yellow')}
+greenDiv.onclick = () => {console.log('red')}
