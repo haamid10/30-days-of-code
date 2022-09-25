@@ -476,3 +476,21 @@ let greenDiv = document.getElementById('green')
 redDiv.onclick = () => {console.log('red')}
 yellowDiv.onclick = () => {console.log('yellow')}
 greenDiv.onclick = () => {console.log('red')}
+
+
+const spm = document.querySelectorAll('.colors')
+console.log(spm)
+
+
+const timesAtached = {
+  'yellow': 0,
+  'red': 0,
+  'green': 0
+}
+
+spm.forEach(spms =>{
+  spms.onclick = () => {
+    timesAtached[spm.value]+= 1
+    spm.innerText =timesAtached[spm.value]
+  }
+})
