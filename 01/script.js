@@ -528,3 +528,6 @@ let VArb = document.getElementById('clearcard')
 
 
   // tip calculator
+
+
+  calculate
