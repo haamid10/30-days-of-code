@@ -457,7 +457,7 @@ const wordFrequency= (phrase)=>{
        })
      }    
       const clearN = document.getElementById('clear')
-    //  clearN.onclick = () => clearScores()
+     clearN.onclick = () => clearScores()
             //  clearBtn.onclick=()=> clearScores()
 
 
@@ -469,13 +469,13 @@ const wordFrequency= (phrase)=>{
 
 
 
-let redDiv = document.getElementById('red')
-let yellowDiv = document.getElementById('yellow')
-let greenDiv = document.getElementById('green')
-// redDiv.innerText = ('xaamid')
-redDiv.onclick = () => {console.log('red')}
-yellowDiv.onclick = () => {console.log('yellow')}
-greenDiv.onclick = () => {console.log('red')}
+// let redDiv = document.getElementById('red')
+// let yellowDiv = document.getElementById('yellow')
+// let greenDiv = document.getElementById('green')
+// // redDiv.innerText = ('xaamid')
+// redDiv.onclick = () => {console.log('red')}
+// yellowDiv.onclick = () => {console.log('yellow')}
+// greenDiv.onclick = () => {console.log('red')}
 
 
 const spm = document.querySelectorAll('.colors')
