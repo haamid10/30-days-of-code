@@ -464,4 +464,6 @@ clearBtn.onclick = () => clearScores()
 
 
 
-
+let redDiv = document.getElementById('red')
+let yellowDiv = document.getElementById('yellow')
+let greendiv = document.getElementById('green')
