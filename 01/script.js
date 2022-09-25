@@ -479,7 +479,7 @@ greenDiv.onclick = () => {console.log('red')}
 
 
 const spm = document.querySelectorAll('.colors')
-console.log(spm)
+// console.log(spm)
 
 
 const timesAtached = {
@@ -489,8 +489,18 @@ const timesAtached = {
 }
 
 spm.forEach(spms =>{
-  spms.onclick = () => {
-    timesAtached[spm.value]+= 1
-    spm.innerText =timesAtached[spm.value]
+  spms.onclick = () =>{
+    timesAtached[spms.value] += 1
+    spms.innerHTML =timesAtached[spms.value]
   }
 })
+
+const clearButtons= () =>{
+
+  spm.forEach(spms =>{
+    timesAtached[spms.value] = 0
+    spms.innerText = 0
+  })
+}
+
+
