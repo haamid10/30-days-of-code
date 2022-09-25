@@ -503,4 +503,6 @@ const clearButtons= () =>{
   })
 }
 
+let VArb = document.getElementById('clearcard')
+  VArb.onclick = () => clearButtons()
 
