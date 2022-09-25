@@ -506,3 +506,11 @@ const clearButtons= () =>{
 let VArb = document.getElementById('clearcard')
   VArb.onclick = () => clearButtons()
 
+  let victor = [1,2,3,4,5]
+  const findMin =(...victor) =>{
+    let min = Infinity, len = 0;
+    while(len++ < victor.length){
+       min = victor[len] < min ? victor[len] : min;
+    }
+    return min;}
+  console.log(findMin(...victor))
