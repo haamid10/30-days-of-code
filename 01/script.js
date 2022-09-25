@@ -508,9 +508,9 @@ let VArb = document.getElementById('clearcard')
 
   let victor = [1,2,3,4,5]
   const findMin =(...victor) =>{
-    let min = Infinity, len = 0;
-    while(len++ < victor.length){
-       min = victor[len] < min ? victor[len] : min;
+    let min = Infinity, b = 0;
+    while(b < victor.length){
+       min = victor[b] < min ? victor[b] : min;
     }
     return min;}
-  console.log(findMin(...victor))
+  // console.log(findMin(...victor))
