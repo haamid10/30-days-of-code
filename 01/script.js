@@ -439,6 +439,7 @@ const wordFrequency= (phrase)=>{
       }
  
      squere.forEach(squeres =>{
+       
        squeres.onclick =() =>{
          timesClicked[squeres.value] += 1
 
@@ -459,11 +460,14 @@ const wordFrequency= (phrase)=>{
        })
      }
 
-     const clearBtn = document.getElementById('clear')
-clearBtn.onclick = () => clearScores()
+     const clearN = document.getElementById('clear')
+     clearN.onclick= () => clearScores()
+            //  clearBtn.onclick=()=> clearScores()
 
 
 
-let redDiv = document.getElementById('red')
-let yellowDiv = document.getElementById('yellow')
-let greendiv = document.getElementById('green')
+// let redDiv = document.getElementById('red')
+// let yellowDiv = document.getElementById('yellow')
+// let greenDiv = document.getElementById('green')
+
+// redDiv.onclick = () => {console.log('red')}
