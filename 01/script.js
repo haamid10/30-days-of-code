@@ -498,13 +498,23 @@ spm.forEach(spms =>{
 const clearButtons= () =>{
 
   spm.forEach(spms =>{
-    timesAtached[spms.value] = 0
+    timesAtached[spms.value] = 0 
     spms.innerText = 0
   })
 }
 
+
+
+
+
+
+
 let VArb = document.getElementById('clearcard')
   VArb.onclick = () => clearButtons()
+
+
+
+  
 
   let victor = [1,2,3,4,5]
   const findMin =(...victor) =>{
