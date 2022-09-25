@@ -509,6 +509,7 @@ const clearButtons= () =>{
 
 
 
+
 let VArb = document.getElementById('clearcard')
   VArb.onclick = () => clearButtons()
 
@@ -524,3 +525,6 @@ let VArb = document.getElementById('clearcard')
     }
     return min;}
   // console.log(findMin(...victor))
+
+
+  // tip calculator
