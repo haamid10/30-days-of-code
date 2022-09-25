@@ -461,3 +461,7 @@ const wordFrequency= (phrase)=>{
 
      const clearBtn = document.getElementById('clear')
 clearBtn.onclick = () => clearScores()
+
+
+
+
