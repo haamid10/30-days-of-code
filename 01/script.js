@@ -517,14 +517,14 @@ let VArb = document.getElementById('clearcard')
 
   
 
-  let victor = [1,2,3,4,5]
-  const findMin =(...victor) =>{
-    let min = Infinity, b = 0;
-    while(b < victor.length){
-       min = victor[b] < min ? victor[b] : min;
-    }
-    return min;}
-  // console.log(findMin(...victor))
+  // let victor = [1,2,3,4,5]
+  // const findMin =(...victor) =>{
+  //   let min = Infinity, b = 0;
+  //   while(b < victor.length){
+  //      min = victor[b] < min ? victor[b] : min;
+  //   }
+  //   return min;}
+  // // console.log(findMin(...victor))
 
 
   // tip calculator
