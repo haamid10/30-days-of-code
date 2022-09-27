@@ -252,16 +252,16 @@ math.random()= gives you random nummber
 // HowManyNumbers()
 
 
-const sumArray = (numbers) => {
- let result = 0;
-  for( const numer of numbers){
+const sumArray = (numberss) => {
+ let resulte = 0;
+  for( const numer of numberss){
     console.log(numer)
 
-    result += numer
+    resulte += numer
   }
-  return {result }
+  // return {resulte }
 }
-// const num = [1,2,3,4,5]
+const num = [1,2,3,4,5]
 // console.log(sumArray(num))
 
 
@@ -276,7 +276,7 @@ const Sum = (numbers) =>{
   }
   return {resulrt}
 }
- let num = [1,2,3,4]
+//  let num = [1,2,3,4]
 //   console.log(Sum(num))
 
 
@@ -551,15 +551,23 @@ These are all the DIV ID's you're gonna need access to 👇
 
 // Get global access to all inputs / divs here (you'll need them later 😘)
 // bill input, tip input, number of people div, and per person total div
+let billTotalInput = document.getElementById('billTotalInput')
+let tipInput = document.getElementById('tipInput')
+let numberOfPeopleDiv = document.getElementById('numberOfPeople')
+let perPersonTotal = document.getElementById('perPersonTotal')
+
 
 
 
 // Get number of people from number of people div
 
+let numberOfPeople = Number(numberOfPeopleDiv.innerText)
+
 
 // ** Calculate the total bill per person **
 const calculateBill = () => {
   // get bill from user input & convert it into a number
+  console.log(numberOfPeople)
   
 
   // get the tip from user & convert it into a percentage (divide by 100)
