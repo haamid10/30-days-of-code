@@ -571,7 +571,7 @@ const calculateBill = () => {
   
 
   // get the tip from user & convert it into a percentage (divide by 100)
-  
+  fff
   
 
   // get the total tip amount
