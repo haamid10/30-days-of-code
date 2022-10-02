@@ -554,7 +554,7 @@ These are all the DIV ID's you're gonna need access to 👇
 let billInput = document.getElementById('billTotalInput')
 let tipInput = document.getElementById('tipInput')
 let numberOfPeopleDiv = document.getElementById('numberOfPeople')
-let perPersonTotal = document.getElementById('perPersonTotal')
+let perPersonTotalDiv = document.getElementById('perPersonTotal')
 
 
 
@@ -592,11 +592,11 @@ const calculateBill = () => {
 
   // calculate the per person total (total divided by number of people)
   const perPersonTotal = total/ numberOfPeople 
-  console.log({perPersonTotal})
+  // console.log({perPersonTotal})
 
 
   // update the perPersonTotal on DOM & show it to user
-
+  perPersonTotalDiv.innerText=  `$${perPersonTotal.toFixed(2)}`
 }
 
 // ** Splits the bill between more people **
