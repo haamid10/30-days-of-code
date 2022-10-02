@@ -581,16 +581,18 @@ const calculateBill = () => {
   // get the total tip amount\
 
   const tipAmount = bill * tipPercentage
-  console.log({tipAmount})
+  // console.log({tipAmount})
   
 
   // calculate the total (tip amount + bill)
 
   const total = tipAmount + bill
-  console.log({total})
+  // console.log({total})
   
 
   // calculate the per person total (total divided by number of people)
+  const perPersonTotal = total/ numberOfPeople 
+  console.log({perPersonTotal})
 
 
   // update the perPersonTotal on DOM & show it to user
