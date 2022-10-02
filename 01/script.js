@@ -252,16 +252,16 @@ math.random()= gives you random nummber
 // HowManyNumbers()
 
 
-const sumArray = (numberss) => {
- let resulte = 0;
-  for( const numer of numberss){
-    console.log(numer)
+// const sumArray = (numberss) => {
+//  let resulte = 0;
+//   for( const numer of numberss){
+//     console.log(numer)
 
-    resulte += numer
-  }
-  // return {resulte }
-}
-const num = [1,2,3,4,5]
+//     resulte += numer
+//   }
+//   // return {resulte }
+// }
+// const num = [1,2,3,4,5]
 // console.log(sumArray(num))
 
 
@@ -568,6 +568,7 @@ let numberOfPeople = Number(numberOfPeopleDiv.innerText)
 const calculateBill = () => {
   // get bill from user input & convert it into a number
   console.log(numberOfPeople)
+  console.log(billTotalInput.value)
   
 
   // get the tip from user & convert it into a percentage (divide by 100)

@@ -1,0 +1,236 @@
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  height: 80vh;
+  min-height: 600px;
+  background-image: url(./images/desktop/image-header.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  flex-direction: column;
+
+}
+.header{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu{
+  display: flex;
+  font-size: 20px;
+  color: white;
+  align-items: center;
+
+}
+.menu span{
+  margin-right: 30px;
+
+}
+
+.contact{
+  background-color: white;
+  color: black;
+  padding: 8px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.2 all ease-in-out;
+
+}
+.contact:hover{
+  background-color: antiquewhite ;
+
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  flex-grow: 3;
+  color: white;
+  font-weight: bold;
+
+
+}
+.arrow{
+  margin-top: 60px;
+
+
+}
+.section1,.section2{
+  display: flex;
+  height: 350px;
+  width: 100%;
+
+}
+.section1 img{
+  width:100%;
+  height: 120%;
+  object-fit: cover;
+  margin-bottom: 4rem;
+}
+.section1 .left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section1 .text-container{
+  width: 70%;
+}
+.left h1{
+   font-size: 40px;
+   margin-bottom: 16px;
+}
+
+.left p{
+   color: #848391;
+   line-height: 1.8;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-bottom: 16px;
+}
+.left .button{
+  display: flex;
+  align-items: center;
+
+}
+.left div img{
+  width: 150px;
+}
+
+.left , .right{
+  flex: 1;
+}
+.left img,  .right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.client-image{
+  display: flex;
+  width:  80px;
+  height: 80px;
+}
+.client-image img{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.testimonials{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fffbf8;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+
+}
+.testimonials h1{
+  color: #a0a1a2;
+  font-size: 20px;
+  margin-bottom: 30px;
+
+
+}
+.clients{
+  display: flex;
+}
+
+.clients .client{
+  display: flex;
+  flex-direction: column;
+  flex: 0.3;
+  align-items: center;
+
+}
+
+.client .client-image{
+  margin-bottom: 30px;
+}
+.client p{
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 1.8;
+  color: #848391;
+  font-family: Arial, Helvetica, sans-serif;
+  /* margin-bottom: 16px; */
+}
+
+.client .details{
+  text-align: center;
+}
+.client h4{
+   color: #A0a1a2;
+   margin-top: 8px;
+    
+
+}
+.examples{
+  display: flex;
+  /* align-items: center; */
+
+}
+.examples div{
+  flex: 0.25;
+  /* width: 100%; */
+}
+.examples img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.footer{
+  background-color: #90d4c5;
+  height: 200px;
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+}
+.footer .logo{
+  color: #2d7465;
+  margin-top: 70px;
+
+
+}
+.footer-navigation{
+  color: 4f9485;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.footer-navigation span{
+  padding: 8px;
+  cursor: pointer;
+}
+.footer-navigation span{
+  color: #2d7465;
+}
+
+.footer .social{
+  margin-top: 30px;
+
+}
+.footer .social img{
+
+padding: 23px;
+}
+
+
+
+/*  *https://whimsical-medovik-06cf95.netlify.app//
