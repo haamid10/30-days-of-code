@@ -602,13 +602,14 @@ const calculateBill = () => {
 // ** Splits the bill between more people **
 const increasePeople = () => {
   // increment the amount of people
+  numberOfPeople += 1
 
 
   // update the DOM with the new number of people
 
-
+numberOfPeopleDiv.innerText =numberOfPeople
   // calculate the bill based on the new number of people
-
+   calculateBill()
 }
 
 // ** Splits the bill between fewer people **
@@ -620,10 +621,12 @@ const decreasePeople = () => {
   
   // decrement the amount of people
 
+  numberOfPeople -= 1
 
   // update the DOM with the new number of people
+  numberOfPeopleDiv.innerText =numberOfPeople
 
 
   // calculate the bill based on the new number of people
-
+  calculateBill()
 }
