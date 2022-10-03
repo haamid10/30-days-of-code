@@ -3,11 +3,11 @@
 // numberofpeaple
 // perPersonalTotal
 let billInput = document.getElementById('billInput')
-let  tipInput = document.getElementById(' tipInput')
+let  tipInput = document.getElementById('tipInput')
 let  numberOfPeapleDiv = document.getElementById('numberofpeaple')
-let perPersonalTotalDiv = document.getElementById('perPersonalTotal')
+let perPersonalDiv = document.getElementById('perPersonalTotal')
 
-let numberofpeaple = Number(numberOfPeapleDiv.innerText)
+let numberPeale = Number(numberOfPeapleDiv.innerText)
 
 const calculate = () =>{
 
@@ -20,8 +20,20 @@ const calculate = () =>{
   let total = tipAmount + bill
   console.log(total)
 
-  let perPersonalTotal = total/numberofpeaple
+  let perPersonalTotal =  total / numberPeale
   console.log(perPersonalTotal)
 
-  perPersonalTotalDiv.innerText = `$${perPersonalTotal}`
+  perPersonalDiv.innerText = `$${perPersonalTotal}`
+  console.log(perPersonalDiv.value)
+
+}
+
+const increaseNumberOfPeaple = () => {
+
+  numberPeale += 1
+
+numberOfPeapleDiv.innerText = numberPeale 
+
+ calculate ()
+  
 }
