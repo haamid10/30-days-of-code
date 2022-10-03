@@ -23,7 +23,7 @@ const calculate = () =>{
   let perPersonalTotal =  total / numberPeale
   console.log(perPersonalTotal)
 
-  perPersonalDiv.innerText = `$${perPersonalTotal}`
+  perPersonalDiv.innerText = `$${perPersonalTotal.toFixed(2)}`
   console.log(perPersonalDiv.value)
 
 }
@@ -31,6 +31,20 @@ const calculate = () =>{
 const increaseNumberOfPeaple = () => {
 
   numberPeale += 1
+
+numberOfPeapleDiv.innerText = numberPeale 
+
+ calculate ()
+  
+}
+
+const decreaseNumberOfPeaple = () => {
+
+  if(numberPeale <= 1){
+    return
+  }
+
+  numberPeale -= 1
 
 numberOfPeapleDiv.innerText = numberPeale 
 
