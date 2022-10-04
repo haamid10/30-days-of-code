@@ -14,7 +14,8 @@
 // getComputerChoice() 👉 'Rock'
 // getComputerChoice() 👉 'Scissors'
 function getComputerChoice() {
-  let rpsChoice = ['Rock']
+  let rpsChoice = ['Rock','Scissors','paper']
+  let randomNum = Math.
   
 }
 
