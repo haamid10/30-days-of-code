@@ -644,3 +644,14 @@ const randomFruit = (fruit) => {
 fruit =['🍋','🍒','🍏','🍎']
 
 console.log(randomFruit(fruit))
+
+
+const weatherScore = (rainy ,sunny,overcast) =>{
+  let result = []
+  if(result === 1){
+    return rainy
+  } elseif(result < 1){
+    return sunny
+  }
+
+}
