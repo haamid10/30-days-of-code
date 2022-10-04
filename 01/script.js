@@ -633,3 +633,14 @@ const decreasePeople = () => {
   // calculate the bill based on the new number of people
   calculateBill()
 }
+
+
+
+const randomFruit = (fruit) => {
+  let Random = Math.floor(Math.random() * fruit.length)
+
+  return fruit[Random]
+}
+fruit =['🍋','🍒','🍏','🍎']
+
+console.log(randomFruit(fruit))
