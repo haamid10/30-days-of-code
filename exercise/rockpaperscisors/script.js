@@ -14,6 +14,7 @@
 // getComputerChoice() 👉 'Rock'
 // getComputerChoice() 👉 'Scissors'
 function getComputerChoice() {
+  let rpsChoice = ['Rock']
   
 }
 
