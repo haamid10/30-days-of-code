@@ -15,9 +15,12 @@
 // getComputerChoice() 👉 'Scissors'
 function getComputerChoice() {
   let rpsChoice = ['Rock','Scissors','paper']
-  let randomNum = Math.
+  let randomNum = Math.floor(Math.random() * rpsChoice.length)
+
+  return rpsChoice[randomNum]
   
 }
+console.log(getComputerChoice())
 
 // ** getResult compares playerChoice & computerChoice and returns the score accordingly **
 // human wins - getResult('Rock', 'Scissors') 👉 1
