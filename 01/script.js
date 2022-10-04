@@ -646,12 +646,18 @@ fruit =['🍋','🍒','🍏','🍎']
 console.log(randomFruit(fruit))
 
 
-const weatherScore = (rainy ,sunny,overcast) =>{
-  let result = []
-  if(result === 1){
-    return rainy
-  } elseif(result < 1){
-    return sunny
+const weatherScore = ( result) =>{
+  let score 
+  if(result === 'rainy'){
+    score = 1
+  } else if ( result == 'sunny') {
+  score= -1    
+  } else if ( result == 'overcast'){
+    score = 0
+  } else{
+    return
   }
-
+ return score
 }
+
+console.log(weatherScore('rainy'))
