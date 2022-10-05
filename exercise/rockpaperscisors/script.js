@@ -20,7 +20,7 @@ function getComputerChoice() {
   return rpsChoice[randomNum]
   
 }
-console.log(getComputerChoice())
+// console.log(getComputerChoice())
 
 // ** getResult compares playerChoice & computerChoice and returns the score accordingly **
 // human wins - getResult('Rock', 'Scissors') 👉 1
