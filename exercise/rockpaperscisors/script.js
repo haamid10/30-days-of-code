@@ -71,7 +71,9 @@ function onClickRPS(playerChoice) {
   console.log({computerChoice})
 
   const score =  getResult(playerChoice , computerChoice)
+  totalScore['playerChoice'] += score
   console.log({score})
+  console.log(totalScore.value)
 }
 
 
