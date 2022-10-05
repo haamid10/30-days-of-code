@@ -28,8 +28,20 @@ function getComputerChoice() {
 // human draws - getResult('Rock', 'Rock') 👉 0
 function getResult(playerChoice, computerChoice) {
   // return the result of score based on if you won, drew, or lost
+  let score ;
+  if (playerChoice == computerChoice){
+    score = 0
+  }else if(playerChoice == 'Rock' && computerChoice == 'Scissors'){
+    score =1
+  }else if(playerChoice == 'Paper' && computerChoice == 'Scissors'){
+    score =1
+  }else if(playerChoice == 'Scissord' && computerChoice == 'Paper'){
+    score =1
+  }else{
+    score = -1
+  }
   
-  
+  Scissors
 
   // All situations where human draws, set `score` to 0
   
@@ -42,7 +54,7 @@ function getResult(playerChoice, computerChoice) {
   
 
   // return score
-  
+  return score
 }
 
 // ** showResult updates the DOM to `You Win!` or `You Lose!` or `It's a Draw!` based on the score. Also shows Player Choice vs. Computer Choice**
@@ -61,6 +73,7 @@ function onClickRPS(playerChoice) {
 // ** Make the RPS buttons actively listen for a click and do something once a click is detected **
 function playGame() {
   // use querySelector to select all RPS Buttons
+  let rpsButtons =document
 
   // * Adds an on click event listener to each RPS button and every time you click it, it calls the onClickRPS function with the RPS button that was last clicked *
   
