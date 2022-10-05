@@ -9,7 +9,7 @@
     👉 Event Listeners
     👉 Higher order Function (Math.random())
 */
-
+c
 // ** getComputerChoice randomly selects between `rock` `paper` `scissors` and returns that string **
 // getComputerChoice() 👉 'Rock'
 // getComputerChoice() 👉 'Scissors'
@@ -30,7 +30,7 @@ function getResult(playerChoice, computerChoice) {
   // return the result of score based on if you won, drew, or lost
   let score ;
   if (playerChoice == computerChoice){
-    score = 0
+    score ;
   }else if(playerChoice == 'Rock' && computerChoice == 'Scissors'){
     score =1
   }else if(playerChoice == 'Paper' && computerChoice == 'Scissors'){
@@ -41,7 +41,7 @@ function getResult(playerChoice, computerChoice) {
     score = -1
   }
   
-  Scissors
+  // Scissors
 
   // All situations where human draws, set `score` to 0
   
@@ -69,7 +69,9 @@ function onClickRPS(playerChoice) {
   console.log({playerChoice})
   let computerChoice = getComputerChoice()
   console.log({computerChoice})
-  
+
+  const score =  getResult(playerChoice , computerChoice)
+  console.log({score})
 }
 
 
