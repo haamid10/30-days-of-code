@@ -15,12 +15,12 @@
 // getComputerChoice() 👉 'Scissors'
 function getComputerChoice() {
   let rpsChoice = ['Rock','Scissors','paper']
-  let randomNum = Math.floor(Math.random() * rpsChoice.length)
+  let randomNum = Math.floor(Math.random() * 3)
 
   return rpsChoice[randomNum]
   
 }
-// console.log(getComputerChoice())
+console.log(getComputerChoice())
 
 // ** getResult compares playerChoice & computerChoice and returns the score accordingly **
 // human wins - getResult('Rock', 'Scissors') 👉 1
@@ -35,7 +35,7 @@ function getResult(playerChoice, computerChoice) {
     score =1
   }else if(playerChoice == 'Paper' && computerChoice == 'Scissors'){
     score =1
-  }else if(playerChoice == 'Scissord' && computerChoice == 'Paper'){
+  }else if(playerChoice == 'Scissors' && computerChoice == 'Paper'){
     score =1
   }else{
     score = -1
@@ -78,7 +78,7 @@ function playGame() {
   rpsButtons[0].onclick = () => console.log(rpsButtons[0].value)
 
   rpsButtons.forEach(rpsButton => {
-    rpsButton.onclick = () => onClickRPS(rpsButton[0].value)
+    rpsButton.onclick = () => onClickRPS(rpsButton.value)
   })
 
   // * Adds an on click event listener to each RPS button and every time you click it, it calls the onClickRPS function with the RPS button that was last clicked *
