@@ -67,6 +67,8 @@ function showResult(score, playerChoice, computerChoice) {
 // ** Calculate who won and show it on the screen **
 function onClickRPS(playerChoice) {
   console.log(playerChoice)
+  let computerChoice = getComputerChoice()
+  console.log()
   
 }
 
