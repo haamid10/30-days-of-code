@@ -61,7 +61,8 @@ function getResult(playerChoice, computerChoice) {
 function showResult(score, playerChoice, computerChoice) {
   // Hint: on a score of -1
 
-  const resultDiv
+  const resultDiv = document.getElementById('result')
+  const handsDiv = document.getElementById
 
   if(score == -1){
  'you lost'
