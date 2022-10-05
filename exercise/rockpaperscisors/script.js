@@ -70,7 +70,7 @@ function showResult(score, playerChoice, computerChoice) {
   }else if (score == 0){
    handsDiv.innerText = "it's tia"
   }else{
-    'You won'
+   playerScoreDiv.innerText = 'You won'
   }
   // You should do result.innerText = 'You Lose!'
   // Don't forget to grab the div with the 'result' id!
