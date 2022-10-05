@@ -60,6 +60,16 @@ function getResult(playerChoice, computerChoice) {
 // ** showResult updates the DOM to `You Win!` or `You Lose!` or `It's a Draw!` based on the score. Also shows Player Choice vs. Computer Choice**
 function showResult(score, playerChoice, computerChoice) {
   // Hint: on a score of -1
+
+  const resultDiv
+
+  if(score == -1){
+ 'you lost'
+  }else if (score == 0){
+    "it's tia"
+  }else{
+    'You won'
+  }
   // You should do result.innerText = 'You Lose!'
   // Don't forget to grab the div with the 'result' id!
 }
