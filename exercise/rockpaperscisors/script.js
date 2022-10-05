@@ -77,7 +77,7 @@ function playGame() {
   rpsButtons[0].onclick = () => console.log(rpsButtons[0].value)
 
   rpsButtons.forEach(rpsButton => {
-    rpsButton
+    rpsButton.onclick = () => onClickRPS(rpsButton[0].value)
   })
 
   // * Adds an on click event listener to each RPS button and every time you click it, it calls the onClickRPS function with the RPS button that was last clicked *
