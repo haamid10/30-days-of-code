@@ -74,6 +74,7 @@ function onClickRPS(playerChoice) {
 function playGame() {
   // use querySelector to select all RPS Buttons
   let rpsButtons =document.querySelectorAll('.rpsButton')
+  rpsButtons[0].onclick = console.log(rpsButtons.value)
 
   // * Adds an on click event listener to each RPS button and every time you click it, it calls the onClickRPS function with the RPS button that was last clicked *
   
