@@ -9,7 +9,7 @@
     👉 Event Listeners
     👉 Higher order Function (Math.random())
 */
-c
+const totalScore = {computerChoice: 0, playerChoice: 0}
 // ** getComputerChoice randomly selects between `rock` `paper` `scissors` and returns that string **
 // getComputerChoice() 👉 'Rock'
 // getComputerChoice() 👉 'Scissors'
@@ -30,7 +30,7 @@ function getResult(playerChoice, computerChoice) {
   // return the result of score based on if you won, drew, or lost
   let score ;
   if (playerChoice == computerChoice){
-    score ;
+    score = 0
   }else if(playerChoice == 'Rock' && computerChoice == 'Scissors'){
     score =1
   }else if(playerChoice == 'Paper' && computerChoice == 'Scissors'){
