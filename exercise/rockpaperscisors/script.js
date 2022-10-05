@@ -62,12 +62,13 @@ function showResult(score, playerChoice, computerChoice) {
   // Hint: on a score of -1
 
   const resultDiv = document.getElementById('result')
-  const handsDiv = document.getElementById
+  const handsDiv = document.getElementById('hands')
+  const playerScoreDiv = document.getElementById('player-score')
 
   if(score == -1){
- 'you lost'
+ resultDiv.innerText = 'you lost'
   }else if (score == 0){
-    "it's tia"
+   handsDiv.innerText = "it's tia"
   }else{
     'You won'
   }
