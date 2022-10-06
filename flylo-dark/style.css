@@ -8,16 +8,35 @@
 
 :root{
   /* primarry */
-  --introDark : hsl(217, 28%, 15%)
-  --MainDark :hsl(218, 28%, 13%)
-  --FooterDark :hsl(216, 53%, 9%)
-  --Testimonials : hsl(219, 30%, 18%)
+  --introDark : hsl(217, 28%, 15%);
+  --mainDark :hsl(218, 28%, 13%);
+  --FooterDark :hsl(216, 53%, 9%);
+  --Testimonials : hsl(219, 30%, 18%);
 
   /* #Accent */
-  --cyan : hsl(176, 68%, 64%)
-  --Blue :  hsl(198, 60%, 50%)
-  --Light :  hsl(0, 100%, 63%)
+  --cyan : hsl(176, 68%, 64%);
+  --Blue :  hsl(198, 60%, 50%);
+  --Light :  hsl(0, 100%, 63%);
   /* neutral */
-  --white : hsl(0, 0%, 100%)
+  --white : hsl(0, 0%, 100%);
+  /* font */
+  --font-semi :400;
+  --font-bold :700;
+  --body-font : 'Raleway', sans-serif;
 
 }
+
+body{
+  font-family: var(--body-font);
+  font-size:  var(--font-semi);
+
+
+}
+
+
+.header{
+  background-color: var(--introDark);
+  
+
+}
+
