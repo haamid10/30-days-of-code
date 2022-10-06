@@ -37,11 +37,11 @@ body{
 .header{
   background-color: var(--introDark);
   height: 4rem;
+  display: flex;
+  padding: 2rem;
 
 }
-.nav{
-  flex-direction: row;
-}
+
 .logo, img{
   height: 32px;
   width: 72px;
@@ -51,28 +51,25 @@ body{
 }
 ul{
   display: flex;
-  margin-left: 44rem;
+  margin-left: 52rem;
   padding-bottom: 2px;
-
-  /* color: white;
-  width: 32px;
-  font-size: var(--font-bold);
-  text-decoration: none;
-  flex-direction: row; */
-  /* margin-left: 4rem; */
-  /* justify-items: flex-end; */
-  /* justify-content: space-between; */
+  margin-bottom: 4rem;
 }
-li , a{
+li {
+  
   display: flex;
-  flex-direction: row;
-  color: white;
-  gap: 4rem;
-  font-size: var(--font-bold);
-  text-decoration: none;
-  flex-direction: row;
-  justify-content: space-between;
+  margin-bottom: 8px;
 
 
 }
+a{
+  display: flex;
+  text-decoration: none;
+  font-family: var(--body-font);
+  color: white;
+  font-weight: var(--font-bold);
+  justify-content: space-between;
+  margin: 2rem;
+}
+
 
