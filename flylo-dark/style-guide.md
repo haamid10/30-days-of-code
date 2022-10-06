@@ -66,10 +66,8 @@ For the social icons, you can use a font icon library. Some suggestions can be f
   Team
   Sign In
 
-  All your files in one secure location, accessible anywhere.
 
-  Fylo stores all your most important files in one secure location. Access them wherever 
-  you need, share and collaborate with friends family, and co-workers.
+
 
   Get Started
 
