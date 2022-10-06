@@ -73,7 +73,30 @@ a{
 }
 .main{
   background-color: var(--mainDark);
-  display: flex;
-  height: 400px;
+  height: fit-content;
+  padding: 1rem;
 }
+.write{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 
+}
+.write img{
+  height: 380px;
+  width: auto;
+}
+.write h2{
+  color: white;
+margin: 2rem;
+  font-family: var(--body-font);
+  font-weight: var(--font-bold);
+}
+.write p{
+  display: flex;
+  color: white;
+  width: 600px;
+  font-family: var(--body-font);
+  font-size: large;
+}
