@@ -36,7 +36,24 @@ body{
 
 .header{
   background-color: var(--introDark);
-  
+  height: 4rem;
 
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+}
+.logo, img{
+  display: flex;
+  height: 32px;
+  width: 72px;
+  margin: 12px 12px 12px ;
+}
+ul{
+  display: flex;
+  text-decoration: none;
+  flex-direction: row;
+  justify-items: flex-end;
+  justify-content: space-between;
 }
 
