@@ -81,7 +81,7 @@ a{
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  margin-left: 2rem;
 
 }
 .write img{
@@ -90,13 +90,25 @@ a{
 }
 .write h2{
   color: white;
+  padding: 1rem;
   font-family: var(--body-font);
   font-weight: var(--font-bold);
 }
 .write p{
-  display: flex;
+  /* display: flex; */
   color: white;
   width: 600px;
   font-family: var(--body-font);
   font-size: large;
+  padding: 1rem;
+}
+.btn{
+  border-radius: 2rem;
+  width: 220px;
+  height: 62px;
+  background: linear-gradient(var(--cyan),var(--Blue));
+  border: none;
+  color: white;
+  font-weight: var(--font-bold);
+  /* background-color: #181f2a; */
 }
