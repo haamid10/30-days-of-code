@@ -100,10 +100,13 @@ ul.navbar li a:hover{
 
 
 }
-.write img{
+.illustrate{
   margin: 2rem;
-  height: 380px;
-  width: auto;
+  height: auto;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin-left: 25rem;
 }
 h2{
   color: white;
