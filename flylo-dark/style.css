@@ -79,19 +79,23 @@ a{
 }
 .write{
   display: flex;
+  max-width: 90rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-left: 2rem;
+  text-align: center;
+
 
 }
 .write img{
   height: 380px;
   width: auto;
 }
-.write h2{
+h2{
   color: white;
-  padding: 1rem;
+  /* padding: 1rem; */
+  /* margin: 4rem; */
   font-family: var(--body-font);
   font-weight: var(--font-bold);
 }
@@ -101,12 +105,13 @@ a{
   /* width: 600px; */
   font-family: var(--body-font);
   /* font-size: large; */
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 .btn{
+  margin-top: 4rem;
   border-radius: 2rem;
-  width: 220px;
-  height: 62px;
+  width: 180px;
+  height: 42px;
   background: linear-gradient(var(--cyan),var(--Blue));
   border: none;
   color: white;
