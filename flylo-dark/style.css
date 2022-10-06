@@ -29,7 +29,7 @@
 body{
   font-family: var(--body-font);
   font-size:  var(--font-semi);
-  background-color: var(--mainDark);
+  background-color: var(--introDark);
 
 
 }
@@ -76,9 +76,10 @@ a{
   /* margin: 2rem; */
 }
 .main{
-  background-color: var(--mainDark);
+  /* background-color: var(--mainDark); */
   height: fit-content;
   padding: 1rem;
+  margin-top: 2rem ;
 }
 .write{
   display: flex;
@@ -118,4 +119,16 @@ h2{
   color: white;
   font-weight: var(--font-bold);
   /* background-color: #181f2a; */
+}
+
+.buur{
+  width: 1360px;
+  height: auto;
+  margin-left: 0rem;
+  position: relative;
+  /* top: 32rem; */
+}
+main{
+  background-color: var(--mainDark);
+  position: absolute;
 }
