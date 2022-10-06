@@ -94,18 +94,15 @@ a{
 }
 h2{
   color: white;
-  /* padding: 1rem; */
-  /* margin: 4rem; */
+  margin-top: 2rem;
   font-family: var(--body-font);
   font-weight: var(--font-bold);
 }
 .write p{
-  /* display: flex; */
+  margin-top: 2rem;
   color: white;
-  /* width: 600px; */
   font-family: var(--body-font);
-  /* font-size: large; */
-  /* padding: 1rem; */
+   width: 600px; 
 }
 .btn{
   margin-top: 4rem;
