@@ -38,12 +38,12 @@ body{
   background-color: var(--introDark);
   height: 4rem;
   display: flex;
-  padding: 2rem;
+  padding: 1rem;
 
 }
 
 .logo, img{
-  height: 32px;
+  height: auto;
   width: 72px;
   padding-top: 12px;
   padding-left: 12px;
@@ -67,7 +67,7 @@ a{
   text-decoration: none;
   font-family: var(--body-font);
   color: white;
-  font-weight: var(--font-bold);
+  font-weight: var(--font-semi);
   justify-content: space-between;
   margin: 2rem;
 }
