@@ -35,22 +35,25 @@ body{
 }
 
 
-.header{
-  background-color: transparent;
-  margin-top: 2rem;
-  /* height: 2rem; */
-  display: flex;
-  padding: 1rem;
+header{
+
+
+}
+.nav{
+  width: 85%;
+  height: 15vh;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+
 
 }
 
-.logo, img{
+.logo{
   margin-left: 2rem;
-  height: 120;
-  width: 100px;
-  /* padding-top: 12px; */
-  /* padding-left: 12px; */
-  /* margin: 12px 12px 12px ; */
+  height: auto;
+  width: 130px;
+
 }
 ul{
   display: flex;
@@ -121,14 +124,24 @@ h2{
   /* background-color: #181f2a; */
 }
 
-.buur{
-  width: 1360px;
-  height: auto;
-  margin-left: 0rem;
-  position: relative;
-  /* top: 32rem; */
+.main{
+  display: flex;
+  flex-direction: column;
 }
-main{
-  background-color: var(--mainDark);
+
+.buur{
+  background-image: url(./images/bg-curvy-desktop.svg);
+  width: 100%;
+  height: 40vh;
+  margin-right: 72rem;
+  top: 800px;
   position: absolute;
+}
+.content{
+  position: relative;
+  top: 210px;
+  background-color: var(--mainDark);
+  height:auto ;
+  width: 100%;
+  margin-top: 0;
 }
