@@ -71,5 +71,9 @@ a{
   justify-content: space-between;
   margin: 2rem;
 }
-
+.main{
+  background-color: var(--mainDark);
+  display: flex;
+  height: 400px;
+}
 
