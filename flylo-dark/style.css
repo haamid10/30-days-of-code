@@ -35,41 +35,53 @@ body{
 }
 
 
-header{
 
-
-}
 .nav{
   width: 85%;
   height: 15vh;
-  margin: auto;
-  justify-content: space-between;
-  align-items: center;
+
+  
 
 
 }
-
+.navb{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
 .logo{
-  margin-left: 2rem;
+  /* margin-top: 2rem; */
   height: auto;
   width: 130px;
+  cursor: pointer;
 
 }
 ul.navbar{
   list-style: none;
   display: flex;
 
+  /* margin-left: 40rem; */
+
+  
  
 }
 ul.navbar li {
  width: 100px;
 }
 ul.navbar li a{
-  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+   /* margin-left: 45rem; */
+   width: 100%;
   text-decoration: none;
-  font-family: var(--body-font);
-  color: white;
-  font-weight: var(--font-semi);
+  color: #fff;
+
+ 
+}
+ul.navbar li a:hover{
+  text-decoration: underline;
 }
 .main{
   /* background-color: var(--mainDark); */
