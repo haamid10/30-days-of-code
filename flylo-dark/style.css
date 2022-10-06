@@ -1,0 +1,18 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+
+:root{
+  /* primarry */
+  --introDarkBlue : hsl(217, 28%, 15%)
+  --MainDarkblue1 :hsl(218, 28%, 13%)
+  --FooterDark :hsl(216, 53%, 9%)
+  --Testimonials : hsl(219, 30%, 18%)
+
+  /* #Accent */
+  --cyan : hsl(176, 68%, 64%)
+
+
+}
