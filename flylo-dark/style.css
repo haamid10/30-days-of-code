@@ -55,28 +55,21 @@ header{
   width: 130px;
 
 }
-ul{
+ul.navbar{
+  list-style: none;
   display: flex;
-  margin-left: 52rem;
-  /* padding-bottom: 2px; */
-  /* margin-bottom: 4rem; */
-}
-li {
-  
-  display: flex;
-  /* margin-bottom: 8px; */
 
-
+ 
 }
-a{
-  display: flex;
+ul.navbar li {
+ width: 100px;
+}
+ul.navbar li a{
   width: 120px;
   text-decoration: none;
   font-family: var(--body-font);
   color: white;
   font-weight: var(--font-semi);
-  justify-content: space-between;
-  /* margin: 2rem; */
 }
 .main{
   /* background-color: var(--mainDark); */
