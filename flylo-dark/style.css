@@ -81,6 +81,7 @@ a{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin-left: 2rem;
 
 }
@@ -97,9 +98,9 @@ a{
 .write p{
   /* display: flex; */
   color: white;
-  width: 600px;
+  /* width: 600px; */
   font-family: var(--body-font);
-  font-size: large;
+  /* font-size: large; */
   padding: 1rem;
 }
 .btn{
