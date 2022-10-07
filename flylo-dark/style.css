@@ -180,26 +180,21 @@ ul.navbar li a:hover{
     
   }
   .logo{
-    width: 70%;
+    width: 90%;
     height: auto;
-    margin-right: 12px;
   }
   ul.navbar {
     width: 70%;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 12px;
-
     margin-right: 7px;
   }
 
   ul.navbar li:nth-child(2){
     width: 50px;
+    margin-right: 14px;
+
   }
   ul.navbar li:nth-child(3){
     width: 70px;
-    margin-left: 12px;
   }
   .section-1{
     width: 300px;
