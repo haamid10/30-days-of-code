@@ -83,20 +83,16 @@ ul.navbar li a{
 ul.navbar li a:hover{
   text-decoration: underline;
 }
-.main{
+.section-1{
  display: flex;
  align-items: center;
  flex-direction: column;
  text-align: center;
 }
 .write{
-  display: flex;
-  max-width: 90rem;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-left: 2rem;
-  text-align: center;
+  width: 470px;
+  margin:auto;
+  margin-bottom: 30px;
 
 
 }
@@ -135,14 +131,14 @@ h1{
   flex-direction: column;
 }
 
-.buur{
+/* .buur{
   background-image: url(./images/bg-curvy-desktop.svg);
   width: 100%;
   height: 40vh;
   margin-right: 72rem;
   top: 800px;
   position: absolute;
-}
+} */
 .content{
   position: relative;
   top: 210px;
