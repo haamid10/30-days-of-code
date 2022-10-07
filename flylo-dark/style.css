@@ -97,9 +97,10 @@ ul.navbar li a:hover{
 
 }
 .illustrate{
-  margin: 2rem;
+  margin: auto;
+  margin-bottom: 30px;
   height: auto;
-  width: 50%;
+  width: 470px;
  
 }
 h1{
