@@ -30,6 +30,7 @@ body{
   font-family: var(--body-font);
   font-size:  var(--font-semi);
   background-color: var(--introDark);
+  color: #fff;
 
 
 }
@@ -113,10 +114,10 @@ ul.navbar li a:hover{
 .write p{
   margin: 0 auto 30px;
   width: 500px;
+  padding: 14px;
   line-height: 1.6rem;
   color: white;
   font-family: var(--body-font);
-   width: 600px; 
 }
 .btn{
   border-radius: 25px;
@@ -135,5 +136,14 @@ ul.navbar li a:hover{
   position: relative;
   z-index: -2;
 
+}
+
+.section-2{
+  width: 100%;
+  height: auto;
+  background-color: var(--mainDark);
+  top: -210px;
+  position: relative;
+  z-index: -1;
 }
 
