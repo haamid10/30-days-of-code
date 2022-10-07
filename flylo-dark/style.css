@@ -151,7 +151,7 @@ ul.navbar li a:hover{
   min-height: 50vh;
   margin: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
@@ -159,7 +159,7 @@ ul.navbar li a:hover{
 .services-wrapper{
   margin: 30px 0; 
 }
-.service-wrapper img{
+.services-wrapper img{
   width: 70%;
   height: auto;
   line-height: 1.5rem;
