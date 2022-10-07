@@ -30,7 +30,7 @@ body{
   font-family: var(--body-font);
   font-size:  var(--font-semi);
   background-color: var(--introDark);
-  /* color: #fff; */
+  color: #fff;
 
 
 }
@@ -45,7 +45,7 @@ body{
 
 
 }
-.navb{
+.navbar{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -146,7 +146,33 @@ ul.navbar li a:hover{
   position: relative;
   z-index: -1;
 }
+.services{
+  width: 70%;
+  min-height: 50vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.service-wrapper{
+  margin: 30px 0; 
+}
+.service-wrapper img{
+  width: 70%;
+  height: auto;
+  line-height: 1.5rem;
+  margin-bottom: 50px;
+}
 
+
+
+
+
+
+
+/* media query section starts here */
 
 @media screen and (max-width: 375px){
   nav{
@@ -175,5 +201,31 @@ ul.navbar li a:hover{
     width: 70px;
     margin-left: 12px;
   }
+  .section-1{
+    width: 300px;
+    margin: auto;
+  }
+ .illustrate{
+   width: 350px;
+ }
+ .write{
+   width: 300px;
+   margin: auto;
+ }
+ .write h1{
+   font-size: 1.5rem;
+   line-height: 2rem;
+ }
+ .write p{
+   width: 318px;
+   line-height: 1.5rem;
+ }
+ .btn{
+   width: 200px;
+ }
+ .curvy-bg{
+   display: none;
+ }
+ /* m */
 }
 
