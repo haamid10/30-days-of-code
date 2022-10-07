@@ -30,7 +30,7 @@ body{
   font-family: var(--body-font);
   font-size:  var(--font-semi);
   background-color: var(--introDark);
-  color: #fff;
+  /* color: #fff; */
 
 
 }
@@ -152,5 +152,22 @@ ul.navbar li a:hover{
   nav{
     width: 90%;
   }
-}
+  .logo{
+    width: 70%;
+    height: auto;
+    margin-right: 22px;
+  }
+  ul.navbar {
+    width: 70%;
+
+    margin-right: 7px;
+  }
+
+  ul.navbar li:nth-child(2){
+    width: 50px;
+  }
+  ul.navbar li:nth-child(3){
+    width: 50px;
+  }
+
 
