@@ -103,14 +103,17 @@ ul.navbar li a:hover{
   width: 470px;
  
 }
-h1{
+.write h1{
   color: white;
+  margin-bottom: 25px;
   margin-top: 2rem;
   font-family: var(--body-font);
   font-weight: var(--font-bold);
 }
 .write p{
-  margin-top: 2rem;
+  margin-top: 0 auto 30px;
+  width: 500px;
+  line-height: 1.6rem;
   color: white;
   font-family: var(--body-font);
    width: 600px; 
