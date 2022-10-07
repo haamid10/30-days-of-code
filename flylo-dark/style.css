@@ -147,3 +147,10 @@ ul.navbar li a:hover{
   z-index: -1;
 }
 
+
+@media screen and (max-width: 375px){
+  nav{
+    width: 90%;
+  }
+}
+
