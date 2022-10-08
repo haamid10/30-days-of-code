@@ -178,6 +178,20 @@ ul.navbar li a:hover{
    font-family: var(--body-font);
    margin-bottom: 10px;
 }
+.section-3{
+  width: 85%;
+  margin: auto;
+ 
+}
+.divsec{
+  width: 70%;
+  display: grid;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.info{
+  
+}
 
 
 
