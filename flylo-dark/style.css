@@ -277,7 +277,7 @@ ul.navbar li a:hover{
 
  .service{
    width: 100%;
-   margin: 250px auto 0;
+   margin: 250px 40px 0;
  }
  .service-wrapper{
    /* margin:  20px 0; */
@@ -290,20 +290,26 @@ ul.navbar li a:hover{
  }
  /* section-3 */
  .section-3 img{
-  width: 200px;
+  width: 300px;
+  height:  auto;
 
 }
  .section-3{
-   width: 75%;
-   margin: auto;
+  width: 70%;
+   margin-top: 0;
+   margin-left: 40px;
+
 
  }
 
  .intro h1{
    width: 100%;
+   font-size: 1rem;
+   margin: 15px 0;
    }
  .intro p{
-   width: 80%;
+   margin-bottom:30px ;
+   font-size: 14px;
  }
  
 }
