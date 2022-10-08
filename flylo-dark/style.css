@@ -270,7 +270,7 @@ ul.navbar li a:hover{
  /* msedia section 2 */
 
  .service{
-   width: 85%;
+   width: 100%;
    margin: 250px auto 0;
  }
  .service-wrapper{
@@ -283,15 +283,17 @@ ul.navbar li a:hover{
    width: 300px;
  }
  /* section-3 */
+ .section-3 img{
+  width: 200px;
+  margin:300px 2px 2px 0px;
+
+}
  .section-3{
    width: 90%;
-   margin: 250px auto 0;
+   margin:  auto;
 
  }
- .section-3 img{
-   width: 20%;
-   margin: auto;
- }
+
  .intro h1{
    width: 20%;
  }
