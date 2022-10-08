@@ -158,9 +158,10 @@ ul.navbar li a:hover{
 }
 .service-wrapper{
   margin: 30px 0; 
+  /* width: 40%; */
 }
 .service-wrapper img{
-  width: 30%;
+  width: 20%;
   height: auto;
   margin-bottom: 25px;
 }
@@ -170,6 +171,13 @@ ul.navbar li a:hover{
   margin-bottom: 50px;
 }
 
+
+
+.service-desc  h2{
+   font-size: 1.2rem;
+   font-family: var(--body-font);
+   margin-bottom: 10px;
+}
 
 
 
