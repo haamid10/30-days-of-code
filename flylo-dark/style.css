@@ -282,5 +282,18 @@ ul.navbar li a:hover{
  .service-desc{
    width: 300px;
  }
+ /* section-3 */
+ .section-3{
+   width: 90%;
+   margin: 250px auto 0;
+
+ }
+ .section-3 img{
+   width: 20%;
+   margin: auto;
+ }
+ .intro h1{
+   width: 20%;
+ }
 }
 
