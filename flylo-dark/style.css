@@ -217,6 +217,33 @@ ul.navbar li a:hover{
   font-size: 1.2rem;
   color: var(--cyan);
 }
+/* section-4 */
+.section-4{
+  /* width: 85%; */
+  margin: auto;
+}
+.section-4 img{
+  width: 50px;
+}
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: var(--Testimonials);
+}
+.card-write p{
+  line-height: 1.2rem;
+  font-family: var(--body-font);
+  font-weight: var(--font-semi); 
+}
+.card-name{
+  display: flex;
+}
+.card-name img{
+  border-radius: 12rem;
+}
 
 
 
