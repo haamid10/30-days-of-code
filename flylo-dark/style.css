@@ -190,9 +190,22 @@ ul.navbar li a:hover{
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
+  margin-left: 6rem;
 }
-.info{
+.intro h1{
+  font-size: 2rem;
+  margin-bottom: 38px;
+  font-family: var(--body-font);
+  line-height: 2rem;
+
   
+}
+.intro p{
+  line-height: 1.2rem;
+  font-size: 1rem;
+  margin-bottom: 32px;
+
+
 }
 
 
