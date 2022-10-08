@@ -234,6 +234,20 @@ ul.navbar li a:hover{
  .curvy-bg{
    display: none;
  }
- /* m */
+ /* msedia section 2 */
+
+ .service{
+   width: 85%;
+   margin: 250px auto 0;
+ }
+ .service-wrapper{
+   /* margin:  20px 0; */
+ }
+ .service-wrapper img{
+   width: 20%;
+ }
+ .service-desc{
+   width: 300px;
+ }
 }
 
