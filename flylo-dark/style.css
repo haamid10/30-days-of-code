@@ -281,8 +281,6 @@ position: relative;
 
 
 
-
-
 /* media query section starts here */
 
 @media screen and (max-width: 375px){
@@ -370,6 +368,13 @@ position: relative;
    margin-bottom:30px ;
    font-size: 14px;
  }
- 
+ .section-4{
+   width: 90%;
+   
+ }
+ .main-card{
+   width: 80%;
+margin: 25px 2px;
 }
 
+}
