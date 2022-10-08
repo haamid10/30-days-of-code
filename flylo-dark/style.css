@@ -223,14 +223,16 @@ min-height: 70vh;
 width: 90%;
 margin: auto;
 display: flex;
+flex-direction: row;
 justify-content: space-between;
 flex-wrap: wrap;
 align-items: center;
 position: relative;
 }
 
+
 .main-card{
- width: 385px;
+ width: 345px;
  height: 200px;
  background-color: var(--Testimonials);
  padding: 15px 25px;
@@ -240,7 +242,7 @@ position: relative;
 .cards{
   /* position: relative; */
   /* left: -10px; */
-  width: 345px;
+  width: 300px;
   font-size: 14px;
   line-height: 1.5rem;
 }
