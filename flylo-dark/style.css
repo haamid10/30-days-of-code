@@ -274,8 +274,19 @@ position: relative;
   background-size: cover;
   border-radius: 50%;
 }
-
-
+footer{
+  background-color: var(--FooterDark);
+}
+.footerMain{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.location{
+  width: 200px;
+}
 
 
 
