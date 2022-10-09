@@ -433,7 +433,7 @@ footer{
 .logo1{
 
  width: 100px;
- margin: auto;
+ margin: 2rem;
  height:  auto;
 }
 .footerMain{
@@ -460,5 +460,6 @@ margin-bottom: 32px;}
  width: 100px;
 
 }
+
 
 }
