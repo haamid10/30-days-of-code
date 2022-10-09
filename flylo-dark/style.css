@@ -101,7 +101,7 @@ ul.navbar li a:hover{
   margin: auto;
   margin-bottom: 30px;
   height: auto;
-  width: 470px;
+  width: 670px;
  
 }
 .write h1{
@@ -351,7 +351,13 @@ footer{
 ul.icons li a:hover{
   text-decoration: underline;
 }
-
+.email{
+  background-color: var(--mainDark);
+  padding: 2rem;
+  margin: auto;
+  position: relative;
+  top: -210px;
+}
 
 
 /* media query section starts here */
