@@ -289,6 +289,7 @@ footer{
   align-items: center;
   justify-content: space-between;
   flex-grow: 2;
+
 }
 .location{
   /* width: 200px; */
@@ -353,10 +354,24 @@ ul.icons li a:hover{
 }
 .email{
   background-color: var(--mainDark);
+  width: 70%;
+  height: 180px;
   padding: 2rem;
   margin: auto;
   position: relative;
-  top: -210px;
+  top: -70px;
+  border-radius: 1rem;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.text{
+  font-size: 1.4rem;
+  line-height: 2.3rem;
+  margin-bottom: 23px;
 }
 
 
