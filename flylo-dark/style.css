@@ -294,11 +294,15 @@ footer{
   display: flex;
   justify-content: space-between;
 }
+.footerP{
+  width: 300px;
+  margin :auto;
+}
 .contact{
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  /* justify-content: ; */
+  align-items: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   margin-right: 12px;
   width: 700px;
@@ -307,11 +311,15 @@ footer{
 .ib{
   margin-right:20px ;
 }
-.navbars{
-  /* display: flex;
-  flex-direction: column; */
+.navbars span{
+  display: flex;
+  width: 50px;
+  flex-direction: column;
   font-family: var(--body-font);
   font-weight: var(--font-semi);
+  margin-bottom: 12px;
+  margin-right: 62px ;
+  
 }
 
 
