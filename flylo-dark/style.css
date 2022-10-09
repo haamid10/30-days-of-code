@@ -274,6 +274,10 @@ position: relative;
   background-size: cover;
   border-radius: 50%;
 }
+.logo1{
+  width: 100px;
+  margin: 12px 80px 20px 45px;
+}
 footer{
   background-color: var(--FooterDark);
 }
@@ -286,7 +290,9 @@ footer{
   justify-content: space-between;
 }
 .location{
-  width: 200px;
+  /* width: 200px; */
+  display: flex;
+  justify-content: space-between;
 }
 .contact{
   display: flex;
@@ -295,13 +301,18 @@ footer{
   /* justify-content: ; */
   flex-wrap: wrap;
   margin-right: 12px;
-  width: 300px;
+  width: 700px;
   font-size: .9rem;
 }
 .ib{
   margin-right:20px ;
 }
-
+.navbars{
+  /* display: flex;
+  flex-direction: column; */
+  font-family: var(--body-font);
+  font-weight: var(--font-semi);
+}
 
 
 
