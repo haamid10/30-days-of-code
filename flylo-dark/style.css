@@ -283,11 +283,12 @@ footer{
 }
 .footerMain{
   padding: 2rem;
-  width: 85%;
+  width:90%;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-grow: 2;
 }
 .location{
   /* width: 200px; */
@@ -295,17 +296,18 @@ footer{
   justify-content: space-between;
 }
 .footerP{
-  width: 300px;
+  width: 180px;
   margin :auto;
 }
 .contact{
+  
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
-  margin-right: 12px;
-  width: 700px;
+  margin-right: 2px;
+  width: 200px;
   font-size: .9rem;
 }
 .ib{
