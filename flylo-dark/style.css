@@ -422,5 +422,43 @@ footer{
    width: 80%;
 margin: 25px 2px;
 }
+/* footer */
+footer{
+  /* width: 100%; */
+  /* margin: auto auto 250px 0; */
+  
+
+
+}
+.logo1{
+
+ width: 100px;
+ margin: auto;
+ height:  auto;
+}
+.footerMain{
+  width: 100%;
+  margin: auto;
+  align-items: baseline;
+  display: flex;
+  flex-direction: column;
+}
+.location p{
+  width: 300px;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+.contact span{
+  width: 400px;
+margin-bottom: 32px;}
+.navbars{
+  margin-bottom: 32px;
+}
+ .br{
+  /* width: 300px; */
+ font-size: 2rem;
+ width: 100px;
+
+}
 
 }
