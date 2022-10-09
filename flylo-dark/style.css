@@ -360,7 +360,7 @@ ul.icons li a:hover{
   margin: auto;
   position: relative;
   top: -70px;
-  border-radius: 1rem;
+  border-radius: .5rem;
 }
 .content{
   display: flex;
@@ -368,10 +368,25 @@ ul.icons li a:hover{
   align-items: center;
   text-align: center;
 }
-.text{
+.text p{
+  font-size: 1rem;
+   width: 600px;
+  margin: 2rem;
+  }
+.text h3{
+  font-weight: var(--font-bold);
+
   font-size: 1.4rem;
   line-height: 2.3rem;
   margin-bottom: 23px;
+}
+input{
+  list-style: none;
+  border: none;
+  width: 400px;
+  /* height: 1rem; */
+  padding: .5rem;
+  border-radius: .9rem;
 }
 
 
