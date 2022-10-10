@@ -16,7 +16,6 @@
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -26,14 +25,17 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
+Users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- tests the email validator, and receive two different messages.
 
 ### Screenshot
 
 <img src="./FireShot.png" alt="">
-![](./screenshot.jpg)
 
 
-url(./ima)
 
 ### Links
 
