@@ -25,11 +25,9 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
-Users should be able to:
-
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
-- tests the email validator, and receive two different messages.
+
 
 ### Screenshot
 
@@ -54,7 +52,7 @@ Users should be able to:
 
 ### What I learned
 
-
+i happy that I learned mobile section
 
 
 
