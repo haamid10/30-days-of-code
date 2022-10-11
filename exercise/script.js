@@ -12,10 +12,11 @@ let numberPeale = Number(numberOfPeapleDiv.innerText)
 const calculate = () =>{
 
   let bill = Number(billInput.value)
-
+  console.log(bill)
   let tipPercentage = Number(tipInput.value) / 100
 
   let tipAmount = bill * tipPercentage
+  console.log(tipAmount)
 
   let total = tipAmount + bill
   console.log(total)
