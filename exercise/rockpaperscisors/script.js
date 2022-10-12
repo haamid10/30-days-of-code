@@ -74,6 +74,8 @@ function showResult(score, playerChoice, computerChoice) {
     resultDiv.innerText= 'you won'
   }
 
+  handsDiv.innerText = `${playerChoice} vs ${computerChoice}`
+  playerScoreDiv.innerText = `${totalScore['playerChoice']}`
   // You should do result.innerText = 'You Lose!'
   // Don't forget to grab the div with the 'result' id!
 }
@@ -85,6 +87,9 @@ function onClickRPS(playerChoice) {
   console.log(computerChoice)
   let score = getResult(playerChoice ,computerChoice)
   console.log(score)
+  totalScore['playerChoice'] += score
+  console.log(totalScore)
+  showResult(score, playerChoice ,computerChoice)
 
 
   
