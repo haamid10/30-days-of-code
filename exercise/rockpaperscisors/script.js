@@ -14,10 +14,7 @@ const totalScore = {computerChoice: 0, playerChoice: 0}
 // getComputerChoice() 👉 'Rock'
 // getComputerChoice() 👉 'Scissors'
 function getComputerChoice() {
-  let rpsChoice = ['Rock','Scissors','paper']
-  let randomNum = Math.floor(Math.random() * 3)
-
-  return rpsChoice[randomNum]
+ 
   
 }
 console.log(getComputerChoice())
@@ -28,18 +25,7 @@ console.log(getComputerChoice())
 // human draws - getResult('Rock', 'Rock') 👉 0
 function getResult(playerChoice, computerChoice) {
   // return the result of score based on if you won, drew, or lost
-  let score ;
-  if (playerChoice == computerChoice){
-    score = 0
-  }else if(playerChoice == 'Rock' && computerChoice == 'Scissors'){
-    score =1
-  }else if(playerChoice == 'Paper' && computerChoice == 'Scissors'){
-    score =1
-  }else if(playerChoice == 'Scissors' && computerChoice == 'Paper'){
-    score =1
-  }else{
-    score = -1
-  }
+  
   
   // Scissors
 
@@ -78,26 +64,14 @@ function showResult(score, playerChoice, computerChoice) {
 
 // ** Calculate who won and show it on the screen **
 function onClickRPS(playerChoice) {
-  console.log({playerChoice})
-  let computerChoice = getComputerChoice()
-  console.log({computerChoice})
-
-  const score =  getResult(playerChoice , computerChoice)
-  totalScore['playerChoice'] += score
-  console.log({score})
-  console.log({totalScore})
+  
 }
 
 
 // ** Make the RPS buttons actively listen for a click and do something once a click is detected **
 function playGame() {
   // use querySelector to select all RPS Buttons
-  let rpsButtons =document.querySelectorAll('.rpsButton')
-  rpsButtons[0].onclick = () => console.log(rpsButtons[0].value)
 
-  rpsButtons.forEach(rpsButton => {
-    rpsButton.onclick = () => onClickRPS(rpsButton.value)
-  })
 
   // * Adds an on click event listener to each RPS button and every time you click it, it calls the onClickRPS function with the RPS button that was last clicked *
   
