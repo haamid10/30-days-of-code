@@ -14,6 +14,12 @@ const totalScore = {computerChoice: 0, playerChoice: 0}
 // getComputerChoice() 👉 'Rock'
 // getComputerChoice() 👉 'Scissors'
 function getComputerChoice() {
+  let bsr =['Rock','Paper','Scissors']
+  let bsrButton = Math.floor(Math.random()*3)
+   return bsr[bsrButton]
+   
+
+
  
   
 }
@@ -47,17 +53,6 @@ function getResult(playerChoice, computerChoice) {
 function showResult(score, playerChoice, computerChoice) {
   // Hint: on a score of -1
 
-  const resultDiv = document.getElementById('result')
-  const handsDiv = document.getElementById('hands')
-  const playerScoreDiv = document.getElementById('player-score')
-
-  if(score == -1){
- resultDiv.innerText = 'you lost'
-  }else if (score == 0){
-   handsDiv.innerText = "it's tia"
-  }else{
-   playerScoreDiv.innerText = 'You won'
-  }
   // You should do result.innerText = 'You Lose!'
   // Don't forget to grab the div with the 'result' id!
 }
