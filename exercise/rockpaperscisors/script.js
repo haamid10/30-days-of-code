@@ -109,11 +109,26 @@ RpsButtons.forEach(rpsButton => {
  
 
   // Add a click listener to the end game button that runs the endGame() function on click
+
+  const endGameButton = document.getElementById('endGameButton')
+  endGameButton.onclick = () => endGame(totalScore)
   
 }
 
+
 // ** endGame function clears all the text on the DOM **
-function endGame() {
+function endGame(totalScore) {
+  totalScore['playerChoice'] = 0
+  totalScore['computerChoice'] = 0
+
+
+  const resultDiv = document.getElementById('result')
+  const handsDiv = document.getElementById('hands')
+  const playerScoreDiv = document.getElementById('player-score')
+
+  resultDiv.innerText = ''
+ handsDiv.innerText = ''
+ playerScoreDiv.innerText = ''
   
 }
 
