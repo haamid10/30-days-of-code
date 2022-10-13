@@ -1,0 +1,1 @@
+const superHero = document.getElementById('imageHero')
