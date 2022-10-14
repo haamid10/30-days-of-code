@@ -20,6 +20,6 @@ setTimeout(waitingSoup,2000
     }, 200)
   })
   console.log(
-    promise1.then
-     (value => console.log(value))
+    promise1
+    .then (value => console.log(value))
      )
