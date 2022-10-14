@@ -17,7 +17,7 @@ setTimeout(waitingSoup,2000
     setTimeout(()=>{
       isReady= false
       isReady ? resolve('soup is ready'): reject('no soup tody')
-    }, 2000)
+    },2000)
   })
   console.log(
     promise1
