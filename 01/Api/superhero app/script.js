@@ -19,3 +19,4 @@ setTimeout(waitingSoup,2000
       isReady ? resolve('soup is ready'): reject('no soup tody')
     }, 200)
   })
+  console.log(promise1.then (value => console.log(value)))
