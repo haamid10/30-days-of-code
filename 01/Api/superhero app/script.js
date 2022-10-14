@@ -15,11 +15,12 @@ setTimeout(waitingSoup,2000
 
   const promise1 = new Promise((resolve ,reject)=>{
     setTimeout(()=>{
-      isReady= true
+      isReady= false
       isReady ? resolve('soup is ready'): reject('no soup tody')
-    }, 200)
+    }, 2000)
   })
   console.log(
     promise1
-    .then (value => console.log(value))
+    .then ( success => console.log({success}))
+    .catch( error => console.log({error}))
      )
