@@ -32,9 +32,25 @@ margin: 12px;
   border-radius: 12px;
   color: white;
 }
-.weather{
+.card-check{
   background-color: white;
-  padding: 80px;
-  margin: 18px;
+  margin-top: 12px;
+ 
 
+}
+.card{
+  background-color: gray;
+  padding: 10px;
+  /* margin: 2px; */
+}
+h4{
+  color: white;
+  font-size: 22px;
+}
+.card-body  ul {
+list-style: none;
+padding: 32px;
+}
+.h-2{
+  margin-left: 32px;
 }
