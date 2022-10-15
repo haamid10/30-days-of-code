@@ -24,3 +24,8 @@ setTimeout(waitingSoup,2000
     .then ( success => console.log({success}))
     .catch( error => console.log({error}))
      )
+
+console.log('fetch:', fetch('https://dog.ceo/api/breeds/image/random')
+.then(response => response.json())
+.then(hamiid => console.log(json))
+)
