@@ -20,10 +20,17 @@ setTimeout(waitingSoup,2000
     },2000)
   })
   const promise2 = async() =>{
+    const data= { 
+      rating: 0,
+      pay:0,
+      tip:0,
+      review: 0,
+    }
     // promise1
     try{
    const soup =await promise1
    console.log(soup)
+   
     }
     catch(error){
       console.log(error)
