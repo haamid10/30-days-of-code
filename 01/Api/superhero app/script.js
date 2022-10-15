@@ -29,3 +29,13 @@ console.log('fetch:', fetch('https://dog.ceo/api/breeds/image/random')
 .then(response => response.json())
 .then(hamiid => console.log(hamiid))
 )
+
+// Async
+
+const DogImg =async() => {
+  const url =  ('https://dog.ceo/api/breeds/image/random')
+  const response = await fetch (url)
+  const data = await response.json()
+  console.log(data)
+}
+DogImg()
