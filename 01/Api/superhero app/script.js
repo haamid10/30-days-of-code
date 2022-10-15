@@ -15,7 +15,7 @@ setTimeout(waitingSoup,2000
 
   const promise1 = new Promise((resolve ,reject)=>{
     setTimeout(()=>{
-      isReady= false
+      isReady= [false,true] [Math.floor(Math.random()*2)]
       isReady ? resolve('soup is ready'): reject('no soup tody')
     },2000)
   })
