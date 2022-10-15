@@ -8,5 +8,5 @@ const options = {
 
 fetch('https://open-weather13.p.rapidapi.com/city/landon', options)
 	.then(response => response.json())
-	.then(response => console.log(response.main))
+	.then(response => console.log(response.weather[0].main))
 	.catch(err => console.error(err));
