@@ -1,0 +1,40 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+main{
+  margin: 250px 90px 80px 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: wheat;
+
+  
+}
+.form input{
+background-color: wheat;
+list-style: none;
+text-decoration: none;
+width: 300px;
+border: 1px solid;
+padding: 2px;
+margin: 12px;
+}
+.btn{
+  background-color: gray;
+  border: none;
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 12px;
+  color: white;
+}
+.weather{
+  background-color: white;
+  padding: 80px;
+  margin: 18px;
+
+}
