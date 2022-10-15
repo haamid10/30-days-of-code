@@ -24,20 +24,32 @@ setTimeout(waitingSoup,2000
       rating: 0,
       pay:0,
       tip:0,
-      review: 0,
+      review: 0
     }
     // promise1
     try{
    const soup =await promise1
    console.log(soup)
-   
+   data.pay=5
+   data.rating=10
+   data.tip =10
+   data.review = 2
+   return data
+
     }
     catch(error){
       console.log(error)
+      data.pay=0
+      data.rating=0
+      data.tip =0
+      data.review = 0
+
+      return data
     }
- 
+    return data
+   
   }
-  promise2()
+  promise2().then(value => console.log(value))
 
   console.log(
     promise1
