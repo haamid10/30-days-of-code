@@ -25,24 +25,23 @@ setTimeout(waitingSoup,2000
    const soup =await promise1
    console.log(soup)
     }
-    catch{
-      const resolve = await promise1
-      console.log(resolve)
+    catch(error){
+      console.log(error)
     }
  
   }
   promise2()
 
-  // console.log(
-  //   promise1
-  //   .then ( success => console.log({success}))
-  //   .catch( error => console.log({error}))
-  //    )
+  console.log(
+    promise1
+    .then ( success => console.log({success}))
+    .catch( error => console.log({error}))
+     )
 
-// console.log('fetch:', fetch('https://dog.ceo/api/breeds/image/random')
-// .then(response => response.json())
-// .then(hamiid => console.log(hamiid))
-// )
+console.log('fetch:', fetch('https://dog.ceo/api/breeds/image/random')
+.then(response => response.json())
+.then(hamiid => console.log(hamiid))
+)
 
 // Async
 
