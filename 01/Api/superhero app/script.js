@@ -19,6 +19,14 @@ setTimeout(waitingSoup,2000
       isReady ? resolve('soup is ready'): reject('no soup tody')
     },2000)
   })
+  const promise2 = async() =>{
+    // promise1
+   const soup =await promise1
+   console.log(soup)
+ 
+  }
+  promise2()
+
   console.log(
     promise1
     .then ( success => console.log({success}))
