@@ -1,17 +1,4 @@
 
- const options = {
-  method: 'GET',
-  headers: {
-    'X-RapidAPI-Key': '58ed24e18amsh5880883edd9a737p109db0jsn781613da7c54',
-    'X-RapidAPI-Host': 'open-weather13.p.rapidapi.com'
-  }
-};
-
-fetch(`https://open-weather13.p.rapidapi.com/city/london` , options)
-  .then(response => response.json())
-  .then(response => console.log(response))
-  .catch(erro => console.error(erro));
-
 
 const getWeatherData = (city) => {
   // const URL = "https://api.openweathermap.org/data/2.5/weather";
@@ -19,23 +6,17 @@ const getWeatherData = (city) => {
   const options = {
     method: 'GET',
     headers: {
-      'X-RapidAPI-Key': '58ed24e18amsh5880883edd9a737p109db0jsn781613da7c54',
+      'X-RapidAPI-Key': '207c1032e9mshfade951431a2ea6p157e85jsn38eeb257e68f',
       'X-RapidAPI-Host': 'open-weather13.p.rapidapi.com'
     }
   };
   
-  fetch(`https://open-weather13.p.rapidapi.com/city/${city}` , options)
+ return fetch(`https://open-weather13.p.rapidapi.com/city/${city}`, options)
     .then(response => response.json())
-    .then(response => console.log(response.main))
-    // .catch(erro => console.error(erro));
+    .then(response => console.log(response))
+    .catch(err => console.error(err));
   
-  
-  
-  // const options ={
 
-  // }
-  // fetch (`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=c4534974db18e4197f943a90d9f1dbea`).then(reponse => response.json()).then(data=> console.log(data));
-  // const weatherPromise  = fetch(URL);
  
 }
 
@@ -46,14 +27,17 @@ const searchCity = () => {
   const city = document.getElementById('city-input').value;
   console.log(city)
 
-  getWeatherData(city)
+  const Data = await getWeatherData(city)
+  weatherData(data)
+
+
   
 
 /**
  * Show the weather data in HTML
  */
 showWeatherData = (weatherData) => {
-  // document.getElementById("city-name").innerText = weatherData.name;
+  document.getElementById('temp').innerText = '106.6';
 
 }
 }
