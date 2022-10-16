@@ -1,63 +1,63 @@
-const options = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Key': '7c73584b6amshddddf219b49d04bp14ffd2jsnde375776e4c8',
-		'X-RapidAPI-Host': 'open-weather13.p.rapidapi.com'
-	}
+
+ const options = {
+  method: 'GET',
+  headers: {
+    'X-RapidAPI-Key': '58ed24e18amsh5880883edd9a737p109db0jsn781613da7c54',
+    'X-RapidAPI-Host': 'open-weather13.p.rapidapi.com'
+  }
 };
 
-fetch('https://open-weather13.p.rapidapi.com/city/landon', options)
-	.then(response => response.json())
-	.then(response => console.log(response.weather[0].main))
-	.catch(err => console.error(err));
+fetch(`https://open-weather13.p.rapidapi.com/city/london` , options)
+  .then(response => response.json())
+  .then(response => console.log(response))
+  .catch(erro => console.error(erro));
 
-  /**
- * Weather App
- * TODO: Complete getWeatherData() to return json response Promise
- * TODO: Complete searchCity() to get user input and get data using getWeatherData()
- * TODO: Complete showWeatherData() to set the data in the the html file from response
- */
 
-/* DIV ID's you'll need access to 👇
-"city-name"
-"weather-type"
-"temp"
-"min-temp"
-"max-temp"
-*/
+const getWeatherData = (city) => {
+  // const URL = "https://api.openweathermap.org/data/2.5/weather";
 
-// API_KEY for maps api
-let API_KEY = "a8e71c9932b20c4ceb0aed183e6a83bb";
+  const options = {
+    method: 'GET',
+    headers: {
+      'X-RapidAPI-Key': '58ed24e18amsh5880883edd9a737p109db0jsn781613da7c54',
+      'X-RapidAPI-Host': 'open-weather13.p.rapidapi.com'
+    }
+  };
+  
+  fetch(`https://open-weather13.p.rapidapi.com/city/${city}` , options)
+    .then(response => response.json())
+    .then(response => console.log(response.main))
+    // .catch(erro => console.error(erro));
+  
+  
+  
+  // const options ={
 
-/**
- * Retrieve weather data from openweathermap
- * HINT: Use fetch()
- * HINT: URL should look like this: 
- * https://api.openweathermap.org/data/2.5/weather?q=detroit&appid=a8e71c9932b20c4ceb0aed183e6a83bb&units=imperial
- */
-getWeatherData = (city) => {
-  const URL = "https://api.openweathermap.org/data/2.5/weather";
-  //HINT: Use template literals to create a url with input and an API key
-
-  //CODE GOES HERE
+  // }
+  // fetch (`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=c4534974db18e4197f943a90d9f1dbea`).then(reponse => response.json()).then(data=> console.log(data));
+  // const weatherPromise  = fetch(URL);
+ 
 }
 
 /**
  * Retrieve city input and get the weather data
- * HINT: Use the promise returned from getWeatherData()
  */
 const searchCity = () => {
   const city = document.getElementById('city-input').value;
-  // CODE GOES HERE
+  console.log(city)
 
-}
+  getWeatherData(city)
+  
 
 /**
  * Show the weather data in HTML
- * HINT: make sure to console log the weatherData to see how the data looks like
  */
-const showWeatherData = (weatherData) => {
-  //CODE GOES HERE
-  
+showWeatherData = (weatherData) => {
+  // document.getElementById("city-name").innerText = weatherData.name;
+
 }
+}
+
+
+
 
