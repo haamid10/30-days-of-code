@@ -1,23 +1,20 @@
+/**
+ * Weather App
+ */
 
+// API_KEY for maps api
+let API_KEY = "a8e71c9932b20c4ceb0aed183e6a83bb";
 
+/**
+ * Retrieve weather data from openweathermap
+ */
 const getWeatherData = (city) => {
-  // const URL = "https://api.openweathermap.org/data/2.5/weather";
-
-  const options = {
-    method: 'GET',
-    headers: {
-      'X-RapidAPI-Key': '207c1032e9mshfade951431a2ea6p157e85jsn38eeb257e68f',
-      'X-RapidAPI-Host': 'open-weather13.p.rapidapi.com'
-    }
-  };
-  
- return fetch(`https://open-weather13.p.rapidapi.com/city/${city}`, options)
-    .then(response => response.json())
-    .then(response => console.log(response))
-    .catch(err => console.error(err));
-  
-
- 
+  const URL = "https://api.openweathermap.org/data/2.5/weather";
+  const FULL_URL = `${URL}?q=${city}&appid=${API_KEY}&units=imperial`;
+  const weatherPromise  = fetch(FULL_URL);
+  return weatherPromise.then((response) => {
+    return response.json();
+  })
 }
 
 /**
@@ -26,22 +23,16 @@ const getWeatherData = (city) => {
 const searchCity = () => {
   const city = document.getElementById('city-input').value;
   console.log(city)
-
-  const Data = await getWeatherData(city)
-  weatherData(data)
-
-
-  
+  getWeatherData(city)
+  .then((data)=>{
+    showWeatherData(data)
+  })
+ 
+}
 
 /**
  * Show the weather data in HTML
  */
 showWeatherData = (weatherData) => {
-  document.getElementById('temp').innerText = '106.6';
-
 }
-}
-
-
-
 
