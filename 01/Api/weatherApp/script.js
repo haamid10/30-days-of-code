@@ -27,6 +27,10 @@ const searchCity = () => {
   .then((data)=>{
     showWeatherData(data)
   })
+  .catch((error)=>{
+    console.log(error)
+    console.log('not found')
+  })
  
 }
 
@@ -34,5 +38,7 @@ const searchCity = () => {
  * Show the weather data in HTML
  */
 showWeatherData = (weatherData) => {
+  console.log(weatherData.main)
+  Document.getElementById('')
 }
 
