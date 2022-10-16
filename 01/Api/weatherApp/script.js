@@ -1,13 +1,7 @@
-/**
- * Weather App
- */
+
 
 // API_KEY for maps api
 let API_KEY = "a8e71c9932b20c4ceb0aed183e6a83bb";
-
-/**
- * Retrieve weather data from openweathermap
- */
 const getWeatherData = (city) => {
   const URL = "https://api.openweathermap.org/data/2.5/weather";
   const FULL_URL = `${URL}?q=${city}&appid=${API_KEY}&units=imperial`;
@@ -46,4 +40,6 @@ showWeatherData = (weatherData) => {
   document.getElementById("min-temp").innerText = weatherData.main.temp_min
 
 }
+
+
 
