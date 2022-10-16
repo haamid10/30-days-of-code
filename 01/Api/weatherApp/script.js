@@ -39,6 +39,10 @@ const searchCity = () => {
  */
 showWeatherData = (weatherData) => {
   console.log(weatherData.main)
-  Document.getElementById('')
+  Document.getElementById('').innerText
+  Document.getElementById('').innerText
+  Document.getElementById('').innerText
+  Document.getElementById('').innerText
+  Document.getElementById('').innerText
 }
 
