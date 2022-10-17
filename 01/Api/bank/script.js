@@ -27,7 +27,17 @@
 const hamiid = new Bank(0)
 
 
+const Amount = document.getElementById('Amount')
+const withdrawBtn = document.getElementById('withdraw')
+const depositBtn = document.getElementById('deposit')
+const balanceDiv = document.getElementById('total')
 
+
+withdrawBtn.onclick =()=>{
+  const Amount = Number(AmountInput.value)
+  hamiid.withDraw(Amount)
+  balanceDiv.innerText= hamiid.balance
+}
 // console.log(hamiid)
 // hamiid.balance
 // hamiid.deposit(20)
