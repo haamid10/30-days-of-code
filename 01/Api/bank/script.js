@@ -11,10 +11,13 @@
   }
   deposit (balance){
    this.balance += balance
+   
    console.log('your deposit is ', balance)
   }
   withDraw(draw){
-   
+   if(this.balance <= 0){
+     console.log
+   }
    this.balance -= draw 
    console.log('your withdraw is ', draw)
   }
