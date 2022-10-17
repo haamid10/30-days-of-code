@@ -107,13 +107,13 @@ const actor = {name: 'hamiid', age: 37, networth: 200000}
      return balance
    }
    deposit (balance){
-    this.balance -= balance
+    this.balance += balance
     console.log('your deposit is ', balance)
    }
    withDraw(draw){
     
-    this.balance += draw 
-    console.log('your withdraw is ', this.balance)
+    this.balance -= draw 
+    console.log('your withdraw is ', draw)
    }
  }
 
