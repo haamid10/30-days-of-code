@@ -88,3 +88,5 @@ mark2.stop()
 mark2.zeroToSixty()
 // console.log(mark2.stop)
 
+
+const fruits =['','']
