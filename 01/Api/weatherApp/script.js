@@ -68,8 +68,8 @@ drive() {
   console.log(`im on the way ${this.currentSpeed}`)
   }
 
-brake(){
-  this.currentSpeed -=10
+brake(speed){
+  this.currentSpeed -= speed
   console.log(`brake screeching  ${this.currentSpeed}`)
 }
 stop(){
@@ -81,14 +81,10 @@ stop(){
 
 const mark2 = new car('mark2',"red",200)
 mark2.drive()
-mark2.drive()
-mark2.drive()
-mark2.drive()
-mark2.drive()
-mark2.drive()
-mark2.brake()
-mark2.stop()
-// console.log(mark2.stop)
-
 const nums = [1 ,2,3,4,5];
 nums.forEach(_=>mark2.drive())
+mark2.brake(60)
+mark2.stop()
+mark2.zeroToSixty()
+// console.log(mark2.stop)
+
