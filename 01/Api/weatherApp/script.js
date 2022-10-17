@@ -52,10 +52,11 @@ class car {
     this.speed= speed;
     this.color=color;
   }
-  const drive () {
+drive() {
   console.log('im on the way')
   }
 } 
 
 const mark2 = new car('mark2',"red",200)
-drive()
+mark2.drive()
+console.log(mark2)
