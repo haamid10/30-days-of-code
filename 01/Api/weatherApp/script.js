@@ -90,3 +90,8 @@ mark2.zeroToSixty()
 
 
 const fruits =['','']
+
+
+const actor = {name: 'hamiid', age: 37, networth: 200000}
+ console.log(Object.keys( actor))
+ console.log(Object.values( actor))
