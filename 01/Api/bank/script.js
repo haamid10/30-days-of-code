@@ -14,20 +14,24 @@
    
    console.log('your deposit is ', balance)
   }
+
   withDraw(draw){
    if(this.balance - draw <= 0){
      console.log("you don't have enough money")
+   console.log('your balance is ', this.balance)
+return
+
    }
    this.balance -= draw 
-   console.log('your withdraw is ', draw)
+   console.log('your withdraw is ', `$${draw}`)
    console.log('your balance is ', this.balance)
   }
 }
 
-const hamiid = new Bank(0)
+const hamill = new Bank(0)
 
 
-const Amount = document.getElementById('Amount')
+const AmountInput = document.getElementById('Amount')
 const withdrawBtn = document.getElementById('withdraw')
 const depositBtn = document.getElementById('deposit')
 const balanceDiv = document.getElementById('total')
@@ -35,8 +39,13 @@ const balanceDiv = document.getElementById('total')
 
 withdrawBtn.onclick =()=>{
   const Amount = Number(AmountInput.value)
-  hamiid.withDraw(Amount)
-  balanceDiv.innerText= hamiid.balance
+  hamill.withDraw(Amount)
+  balanceDiv.innerText= hamill.balance
+}
+depositBtn.onclick =()=>{
+  const Amount = Number(AmountInput.value)
+  hamill.deposit(Amount)
+  balanceDiv.innerText= hamill.balance
 }
 // console.log(hamiid)
 // hamiid.balance
