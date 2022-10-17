@@ -47,21 +47,37 @@ showWeatherData = (weatherData) => {
 
 
 class car {
-  constructor(name,speed,color){
+  constructor(name,topSpeed,color){
     this.name = name;
-    this.speed= speed;
+    this.speed= topSpeed;
     this.color=color;
+    this.currentSpeed =0
   }
 drive() {
-  console.log('im on the way')
+  this.currentSpeed +=10
+  console.log(`im on the way ${this.currentSpeed}`)
   }
 brake(){
-  console.log('im at rest')
+  this.currentSpeed -=10
+  console.log(`brake screeching  ${this.currentSpeed}`)
+}
+stop(){
+  this.currentSpeed = 0
+  console.log(`stopped  ${this.currentSpeed}`)
 
 }
 } 
 
 const mark2 = new car('mark2',"red",200)
 mark2.drive()
+mark2.drive()
+mark2.drive()
+mark2.drive()
+mark2.drive()
+mark2.drive()
 mark2.brake()
-console.log(mark2)
+mark2.stop()
+// console.log(mark2.stop)
+
+const nums = [1 ,2,3,4,5];
+nums.forEach(_=>mark2.drive())
