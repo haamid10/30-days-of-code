@@ -55,8 +55,13 @@ class car {
 drive() {
   console.log('im on the way')
   }
+brake(){
+  console.log('im at rest')
+
+}
 } 
 
 const mark2 = new car('mark2',"red",200)
 mark2.drive()
+mark2.brake()
 console.log(mark2)
