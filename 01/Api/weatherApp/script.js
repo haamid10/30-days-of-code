@@ -53,10 +53,21 @@ class car {
     this.color=color;
     this.currentSpeed =0
   }
+  getCurrentSpeed(){
+    return currentSpeed
+  }
+  zeroToSixty (){
+    setTimeout(()=>{
+      console.log('phew that was fast')
+      this.currentSpeed= 60
+      console.log(this.currentSpeed)
+    }, 3000)
+  }
 drive() {
   this.currentSpeed +=10
   console.log(`im on the way ${this.currentSpeed}`)
   }
+
 brake(){
   this.currentSpeed -=10
   console.log(`brake screeching  ${this.currentSpeed}`)
