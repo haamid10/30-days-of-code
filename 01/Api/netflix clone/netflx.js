@@ -51,9 +51,13 @@ function fetchMovies(url, dom_element, path_type) {
     }else{
       throw new Error('something is wrong')
     }
-    console.log(response)
+    // console.log(response)
   }).then(data=>{
+    console.log(data)
+
    showMovies(data,originalEL)
+  }).catch(error =>{
+    console.log(error)
   })
   // Use Fetch with the url passed down 
 
