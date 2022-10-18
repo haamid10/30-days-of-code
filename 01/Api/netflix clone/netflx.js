@@ -46,6 +46,11 @@ function fetchMovies(url, dom_element, path_type) {
 
   fetch(url)
   .then(response=>{
+    if(response.ok){
+      return response.json()
+    }else{
+      throw new Error('something is wrong')
+    }
     console.log(response)
   }).then(data=>{
    showMovies(data,originalEL)
