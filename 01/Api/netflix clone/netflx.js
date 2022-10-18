@@ -46,9 +46,9 @@ function fetchMovies(url, dom_element, path_type) {
 
   fetch(url)
   .then(response=>{
-    console.log(response.json())
+    console.log(response)
   }).then(data=>{
-   console.log(data)
+   showMovies(data,originalEL)
   })
   // Use Fetch with the url passed down 
 
@@ -58,7 +58,9 @@ fetchMovies('https://api.themoviedb.org/3/discover/tv?api_key=19f84e11932abbc79e
 
 //  ** Function that displays the movies to the DOM **
 showMovies = (movies, dom_element, path_type) => {
-  
+  let originalEL= document.querySelector('original__movies').value
+  console.log(originalEL)
+  //  originalEL = fetchMovies()
   // Create a variable that grabs id or class
 
 
