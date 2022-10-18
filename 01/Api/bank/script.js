@@ -60,5 +60,12 @@ HeyDiv.addEventListener('click', function(){
 })
 
 document.addEventListener('keydown', function(e){
-  console.log('sioooo')
+   if(e.key ==q){
+     console.log('you pressed Q')
+   }
+   else{
+     console.log('you not pressed Q')
+   }
+
+  // console.log('sioooo')
 })
