@@ -55,7 +55,7 @@ function fetchMovies(url, dom_element, path_type) {
   }).then(data=>{
     console.log(data)
 
-   showMovies(data,originalEL)
+   showMovies(data, dom_element)
   }).catch(error =>{
     console.log(error)
   })
@@ -63,7 +63,6 @@ function fetchMovies(url, dom_element, path_type) {
 
   // Within Fetch get the response and call showMovies() with the data , dom_element, and path type
 }
-fetchMovies('https://api.themoviedb.org/3/discover/tv?api_key=19f84e11932abbc79e6d83f82d6d1045&with_networks=213')
 
 //  ** Function that displays the movies to the DOM **
 showMovies = (movies, dom_element, path_type) => {
@@ -94,6 +93,7 @@ for(let movie of movies.results){
     // Append the imageElement to the dom_element selected
 
   }
+  fetchMovies('https://api.themoviedb.org/3/discover/tv?api_key=19f84e11932abbc79e6d83f82d6d1045&with_networks=213','.original__movies','poster_path')
 
 
 // ** Function that fetches Netflix Originals **
