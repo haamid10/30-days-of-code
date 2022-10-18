@@ -67,13 +67,16 @@ fetchMovies('https://api.themoviedb.org/3/discover/tv?api_key=19f84e11932abbc79e
 
 //  ** Function that displays the movies to the DOM **
 showMovies = (movies, dom_element, path_type) => {
-  let originalEL= document.querySelector('original__movies').value
-  console.log(originalEL)
   //  originalEL = fetchMovies()
   // Create a variable that grabs id or class
+  let moviesEL= document.querySelector(dom_element)
 
 
   // Loop through object
+for(let movie of movies.results){
+  // return movie
+  console.log(movie)
+}
 
 
     // Within loop create an img element
