@@ -52,3 +52,9 @@ depositBtn.onclick =()=>{
 // hamiid.deposit(20)
 // hamiid.withDraw(100)
 // hamiid.getBalance()
+
+let HeyDiv = document.getElementById('hey')
+
+HeyDiv.addEventListener('click', function(){
+  console.log('HEYOPOO')
+})
