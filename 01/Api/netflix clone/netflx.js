@@ -75,7 +75,12 @@ showMovies = (movies, dom_element, path_type) => {
 for(let movie of movies.results){
   // return movie
   console.log(movie)
-}
+
+  let imageElement = document.createElement('img')
+
+  imageElement.setAttribute('data-id', movie.id)
+  
+
 
 
     // Within loop create an img element
@@ -91,7 +96,7 @@ for(let movie of movies.results){
 
   
     // Append the imageElement to the dom_element selected
-
+   }
   }
   fetchMovies('https://api.themoviedb.org/3/discover/tv?api_key=19f84e11932abbc79e6d83f82d6d1045&with_networks=213','.original__movies','poster_path')
 
