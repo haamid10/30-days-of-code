@@ -45,9 +45,9 @@ window.onload = () => {
 function fetchMovies(url, dom_element, path_type) {
 
   fetch(url)
-  .then((response)=>{
+  .then(response=>{
     console.log(response.json())
-  }).then((data)=>{
+  }).then(data=>{
    console.log(data)
   })
   // Use Fetch with the url passed down 
