@@ -72,7 +72,7 @@ showMovies = (movies, dom_element, path_type) => {
     // Append the imageElement to the dom_element selected
 
   }
-}
+
 
 // ** Function that fetches Netflix Originals **
 function getOriginals() {
@@ -98,9 +98,9 @@ async function getMovieTrailer(id) {
 // ** Function that adds movie data to the DOM
 const setTrailer = trailers => {
   // Set up iframe variable to hold id of the movieTrailer Element
-  const iframe
+  // const iframe;
   // Set up variable to select .movieNotFound element
-  const movieNotFound
+  // const movieNotFound;
 
   // If there is a trailer add the src for it
   if (trailers.length > 0) {
