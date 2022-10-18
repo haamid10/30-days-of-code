@@ -68,34 +68,25 @@ function fetchMovies(url, dom_element, path_type) {
 showMovies = (movies, dom_element, path_type) => {
   //  originalEL = fetchMovies()
   // Create a variable that grabs id or class
-  let moviesEL= document.querySelector(dom_element)
+  let moviesEl= document.querySelector(dom_element)
 
 
   // Loop through object
-for(let movie of movies.results){
+for(var movie of movies.results){
   // return movie
-  console.log(movie)
+  // console.log(movie)
 
-  let imageElement = document.createElement('img')
+  var imageElement = document.createElement('img')
 
   imageElement.setAttribute('data-id', movie.id)
+
+  imageElement.src = `https://image.tmdb.org/t/p/original${movie[path_type]}`;
   
+  moviesEl.appendChild(imageElement)
 
 
 
-    // Within loop create an img element
-
-
-    // Set attribute
-
-
-    // Set source
-
-
-    // Add event listener to handleMovieSelection() onClick
-
-  
-    // Append the imageElement to the dom_element selected
+    // moviesEL.appendChild(imageElement)
    }
   }
   fetchMovies('https://api.themoviedb.org/3/discover/tv?api_key=19f84e11932abbc79e6d83f82d6d1045&with_networks=213','.original__movies','poster_path')
