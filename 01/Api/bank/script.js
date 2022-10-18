@@ -58,3 +58,7 @@ let HeyDiv = document.getElementById('hey')
 HeyDiv.addEventListener('click', function(){
   console.log('HEYOPOO')
 })
+
+document.addEventListener('keydown', function(e){
+  console.log('sioooo')
+})
