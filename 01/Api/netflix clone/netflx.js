@@ -80,7 +80,7 @@ for(var movie of movies.results){
 
   imageElement.setAttribute('data-id', movie.id)
 
-  imageElement.src = `https://image.tmdb.org/t/p/w500/${movie[path_type]}`;
+  imageElement.src = `https://image.tmdb.org${movie[path_type]}`;
   console.log(imageElement.src)
   
   moviesEl.appendChild(imageElement)
@@ -96,13 +96,15 @@ for(var movie of movies.results){
 // ** Function that fetches Netflix Originals **
 function getOriginals() {
   let url =  'https://api.themoviedb.org/3/movie/550?api_key=c2a459353b778be8b3303cb738c2e455'
+  
+  // https://api.themoviedb.org/3/movie/76341?api_key=c2a459353b778be8b3303cb738c2e455
 
-  fetchMovies(url, '.original__movies','poster_path')
+  fetchMovies(url, '.original__movies','backdrop_path')
 
 }
 // ** Function that fetches Trending Movies **
 function getTrendingNow() {
- let url = `https://api.themoviedb.org/3/trending/all/day?api_key=c2a459353b778be8b3303cb738c2e455`
+ let url = `https://api.themoviedb.org/3/movie/550?api_key=c2a459353b778be8b3303cb738c2e455`
   // let URL = 'https://api.themoviedb.org/3/trending/movie/week?api_key=19f84e11932abbc79e6d83f82d6d1045'
 
   fetchMovies(url,'#trending','poster_bath')
