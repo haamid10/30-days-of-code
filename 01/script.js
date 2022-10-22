@@ -663,5 +663,5 @@ const weatherScore = ( result) =>{
 // console.log(weatherScore('rainy'))
 
 
-let reminder = 8% 3;
+let reminder = 11 % 3;
 console.log(reminder)
